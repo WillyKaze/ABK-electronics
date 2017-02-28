@@ -6,9 +6,9 @@ ____ _ ____ _    ____    ____ _    ____ ____ ___ ____ ____ _  _ _ ____ ____
 ```
                                                                          
                                                                          
-# Eisla electronics
+# Abrakabouki electronics
 
-This repo contains all necessary files to design and produce PCBs for the Eisla product range.
+This repo contains all necessary files to design and produce PCBs for the Abrakabouki product range.
 
 ## File format and folder structure
 
