@@ -20224,7 +20224,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </part>
 <part name="J4" library="con-molex" deviceset="22-?-06" device="05-7068">
 <attribute name="MPN" value="22-05-7068"/>
-<attribute name="OC_NEWARK" value="25M1733"/>
+<attribute name="OC_NEWARK" value="89K0316"/>
 </part>
 <part name="P+6" library="supply3" deviceset="+24V" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
@@ -20408,7 +20408,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="GND62" library="supply1" deviceset="GND" device=""/>
 <part name="J7" library="con-molex" deviceset="22-?-06" device="05-7068">
 <attribute name="MPN" value="22-05-7068"/>
-<attribute name="OC_NEWARK" value="25M1733"/>
+<attribute name="OC_NEWARK" value="89K0316"/>
 </part>
 <part name="P+18" library="supply3" deviceset="+24V" device=""/>
 <part name="GND63" library="supply1" deviceset="GND" device=""/>
@@ -20465,10 +20465,10 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="P+22" library="supply1" deviceset="+5V" device=""/>
 <part name="GND68" library="supply1" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="0.1Uf">
+<part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MC0603B104K500CT"/>
-<attribute name="OC_NEWARK" value="06R4927"/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
+<attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND69" library="supply1" deviceset="GND" device=""/>
@@ -20581,7 +20581,11 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="OC_NEWARK" value="86T3542"/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="SJ3" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NC"/>
+<part name="SJ3" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NC">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 <part name="GND78" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -20861,7 +20865,11 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MF" x="24.13" y="17.78" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MPN" x="24.13" y="17.78" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="SJ3" gate="1" x="187.96" y="30.48" rot="R90"/>
+<instance part="SJ3" gate="1" x="187.96" y="30.48" rot="R90">
+<attribute name="OC_NEWARK" x="187.96" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="187.96" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="187.96" y="30.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND78" gate="1" x="187.96" y="20.32"/>
 </instances>
 <busses>
