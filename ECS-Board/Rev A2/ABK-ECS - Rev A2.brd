@@ -2399,7 +2399,7 @@ Source: www.abracon.com</description>
 <package name="3000">
 <circle x="0" y="0" radius="6" width="0.0635" layer="51"/>
 <circle x="-7.874" y="0" radius="0.567959375" width="0.127" layer="51"/>
-<circle x="7.874" y="0" radius="0.567959375" width="0.127" layer="52"/>
+<circle x="7.874" y="0" radius="0.567959375" width="0.127" layer="51"/>
 <wire x1="-6.604" y1="-2.9972" x2="-3.5687" y2="-6.0325" width="0.127" layer="21"/>
 <wire x1="-6.604" y1="-2.9972" x2="-6.604" y2="2.9972" width="0.127" layer="21"/>
 <wire x1="-6.604" y1="2.9972" x2="-3.81" y2="3.81" width="0.127" layer="21" curve="-147.559622"/>
