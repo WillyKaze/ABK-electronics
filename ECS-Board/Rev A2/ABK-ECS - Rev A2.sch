@@ -18410,7 +18410,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.1778" drill="0">
 </class>
 <class number="1" name="signal" width="0.1778" drill="0.35">
 </class>
@@ -19438,7 +19438,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" value="MCMR06X3300FTL"/>
 <attribute name="OC_NEWARK" value="86T3616"/>
 </part>
-<part name="LED21" library="led" deviceset="LED" device="CHIPLED_0603" value="Blue">
+<part name="LED21" library="led" deviceset="LED" device="CHIPLED_0603" value="01.1">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="OVS-0603"/>
 <attribute name="OC_NEWARK" value="15R2205"/>
@@ -19691,6 +19691,11 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X4701FTL"/>
 <attribute name="OC_NEWARK" value="86T3649"/>
+</part>
+<part name="R121" library="rcl" deviceset="R-EU_" device="R0603" value="0R">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCMR06X000 PTL"/>
+<attribute name="OC_NEWARK" value="86T3500"/>
 </part>
 </parts>
 <sheets>
@@ -19958,7 +19963,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="J1" gate="-4" x="116.84" y="48.26" rot="MR0"/>
 <instance part="J1" gate="-5" x="116.84" y="43.18" rot="MR0"/>
 <instance part="J1" gate="-6" x="116.84" y="38.1" rot="MR0"/>
-<instance part="GND11" gate="1" x="129.54" y="33.02"/>
+<instance part="GND11" gate="1" x="129.54" y="22.86"/>
 <instance part="GND19" gate="1" x="370.84" y="33.02"/>
 <instance part="J2" gate="G$1" x="195.58" y="43.18">
 <attribute name="OC_NEWARK" x="195.58" y="43.18" size="1.27" layer="96" display="off"/>
@@ -19987,6 +19992,11 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="OC_NEWARK" x="25.4" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MF" x="25.4" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MPN" x="25.4" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="R121" gate="G$1" x="137.16" y="30.48" rot="R180">
+<attribute name="OC_NEWARK" x="137.16" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="137.16" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="137.16" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -20284,7 +20294,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="J1" gate="-1" pin="S"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="119.38" y1="63.5" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="63.5" x2="129.54" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="63.5" x2="129.54" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
@@ -20381,16 +20391,16 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="J2" gate="G$1" pin="VUSB"/>
 </segment>
 </net>
-<net name="USB_UP_LED" class="1">
+<net name="ONBOARD_LED1" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="P1[18]/USB_UP_LED/PWM1[1]/CAP1[0]"/>
 <wire x1="134.62" y1="154.94" x2="127" y2="154.94" width="0.1524" layer="91"/>
 <label x="127" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="360.68" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="358.14" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="360.68" y1="66.04" x2="370.84" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="66.04" x2="370.84" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="66.04" x2="370.84" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20551,6 +20561,11 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="317.5" y1="114.3" x2="322.58" y2="114.3" width="0.1524" layer="91"/>
 <label x="322.58" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R121" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="30.48" x2="147.32" y2="30.48" width="0.1524" layer="91"/>
+<label x="147.32" y="30.48" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="!RESET" class="0">
 <segment>
@@ -20575,7 +20590,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="363.22" y1="50.8" x2="363.22" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED_DEBUG" class="1">
+<net name="ONBOARD_LED2" class="1">
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="363.22" y1="60.96" x2="363.22" y2="58.42" width="0.1524" layer="91"/>
@@ -20629,63 +20644,63 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="370.84" y1="50.8" x2="370.84" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="R_VALIDATION_MCU" class="0">
+<net name="OUTPUT2.1_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P1[25]/MCOA1/MAT1[1]"/>
 <wire x1="134.62" y1="137.16" x2="127" y2="137.16" width="0.1524" layer="91"/>
 <label x="127" y="137.16" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CLUTCH_CONTROL_MCU" class="0">
+<net name="OUTPUT2.3_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P1[23]/MCI1/PWM1[4]/MISO0"/>
 <wire x1="134.62" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
 <label x="127" y="142.24" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MOTOR_CONTROL_MCU" class="0">
+<net name="OUTPUT3.2_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P1[26]/MCOB1/PWM1[6]/CAP0[0]"/>
 <wire x1="134.62" y1="134.62" x2="127" y2="134.62" width="0.1524" layer="91"/>
 <label x="127" y="134.62" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="BRAKE_CONTROL_MCU" class="0">
+<net name="OUTPUT2.4_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P1[22]/MCOB0/USB_PWRD/MAT1[0]"/>
 <wire x1="134.62" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
 <label x="127" y="144.78" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="L_VALIDATION_MCU" class="0">
+<net name="OUTPUT2.2_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P1[24]/MCI2/PWM1[5]/MOSI0"/>
 <wire x1="134.62" y1="139.7" x2="127" y2="139.7" width="0.1524" layer="91"/>
 <label x="127" y="139.7" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LIMIT_SWITCH_MCU" class="0">
+<net name="INPUT2.3_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P0[21]/RI1/RD1"/>
 <wire x1="317.5" y1="124.46" x2="325.12" y2="124.46" width="0.1524" layer="91"/>
 <label x="325.12" y="124.46" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="DRIVE_STATUS_2_MCU" class="0">
+<net name="INPUT2.1_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P0[19]/DSR1/SDA1"/>
 <wire x1="317.5" y1="129.54" x2="325.12" y2="129.54" width="0.1524" layer="91"/>
 <label x="325.12" y="129.54" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="DRIVE_STATUS_1_MCU" class="0">
+<net name="INPUT2.2_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P0[18]/DCD1/MOSI0/MOSI"/>
 <wire x1="317.5" y1="132.08" x2="325.12" y2="132.08" width="0.1524" layer="91"/>
 <label x="325.12" y="132.08" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="EMERGENCY_STOP_MCU" class="0">
+<net name="INPUT2.4_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P0[22]/RTS1/TD1"/>
 <wire x1="317.5" y1="121.92" x2="325.12" y2="121.92" width="0.1524" layer="91"/>
@@ -20711,63 +20726,63 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="187.96" y1="38.1" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="230V_DETECTION_MCU" class="0">
+<net name="INPUT3.1_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P0[20]/DTR1/SCL1"/>
 <wire x1="325.12" y1="127" x2="317.5" y2="127" width="0.1524" layer="91"/>
 <label x="325.12" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SLOWFEED_1_MCU" class="0">
+<net name="INPUT1.4_MCU" class="0">
 <segment>
 <wire x1="325.12" y1="134.62" x2="317.5" y2="134.62" width="0.1524" layer="91"/>
 <label x="325.12" y="134.62" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="A" pin="P0[17]/CTS1/MISO0/MISO"/>
 </segment>
 </net>
-<net name="INPUT1_MCU" class="0">
+<net name="INPUT1.2_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P0[16]/RXD1/SSEL0/SSEL"/>
 <wire x1="317.5" y1="139.7" x2="325.12" y2="139.7" width="0.1524" layer="91"/>
 <label x="325.12" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SLOWFEED_2_MCU" class="0">
+<net name="INPUT1.3_MCU" class="0">
 <segment>
 <wire x1="317.5" y1="137.16" x2="325.12" y2="137.16" width="0.1524" layer="91"/>
 <label x="325.12" y="137.16" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="A" pin="P0[15]/TXD1/SCK0/SCK"/>
 </segment>
 </net>
-<net name="LED3_MCU" class="0">
+<net name="OUTPUT1.3_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P1[28]/MCOA2/PCAP1[0]/MAT0[0]"/>
 <wire x1="127" y1="124.46" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
 <label x="127" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LED1_MCU" class="0">
+<net name="OUTPUT1.1_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P0[0]/RD1/TXD3/SDA1"/>
 <wire x1="127" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
 <label x="127" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LED4_MCU" class="0">
+<net name="OUTPUT1.4_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P1[27]/CLKOUT/*USB_OVRCR/CAP0[1]"/>
 <wire x1="134.62" y1="127" x2="127" y2="127" width="0.1524" layer="91"/>
 <label x="127" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LED2_MCU" class="0">
+<net name="OUTPUT1.2_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P1[29]/MCOB2/PCAP1[1]/MAT0[1]"/>
 <wire x1="134.62" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
 <label x="127" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="INPUT2_MCU" class="0">
+<net name="INPUT1.1_MCU" class="0">
 <segment>
 <wire x1="317.5" y1="142.24" x2="325.12" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="P2[9]/USB_CONNECT/RXD2"/>
@@ -20776,10 +20791,22 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </net>
 <net name="+5V/1" class="2">
 <segment>
+<pinref part="SUPPLY1" gate="G$1" pin="+5V/1"/>
+<pinref part="J1" gate="-3" pin="S"/>
+<wire x1="124.46" y1="53.34" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ISP_RTS" class="0">
+<segment>
 <pinref part="J1" gate="-6" pin="S"/>
 <wire x1="119.38" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="38.1" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="SUPPLY1" gate="G$1" pin="+5V/1"/>
+<label x="132.08" y="38.1" size="1.27" layer="95" xref="yes"/>
+<pinref part="R121" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="38.1" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="30.48" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="30.48" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
+<junction x="124.46" y="38.1"/>
 </segment>
 </net>
 </nets>
@@ -22091,7 +22118,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="48.26" y1="226.06" x2="50.8" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LIMIT_SWITCH" class="0">
+<net name="INPUT2.3" class="0">
 <segment>
 <pinref part="R35" gate="G$1" pin="1"/>
 <pinref part="R31" gate="G$1" pin="2"/>
@@ -22155,7 +22182,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="137.16" y1="236.22" x2="134.62" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOTOR_CONTROL_MCU" class="0">
+<net name="OUTPUT3.2_MCU" class="0">
 <segment>
 <pinref part="LED8" gate="G$1" pin="A"/>
 <wire x1="264.16" y1="226.06" x2="264.16" y2="248.92" width="0.1524" layer="91"/>
@@ -22255,7 +22282,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="88.9" y1="167.64" x2="91.44" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SLOWFEED_2" class="0">
+<net name="INPUT1.3" class="0">
 <segment>
 <pinref part="R50" gate="G$1" pin="1"/>
 <pinref part="R46" gate="G$1" pin="2"/>
@@ -22277,7 +22304,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="304.8" y1="106.68" x2="307.34" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DRIVE_STATUS_1" class="0">
+<net name="INPUT2.2" class="0">
 <segment>
 <pinref part="R36" gate="G$1" pin="1"/>
 <pinref part="R32" gate="G$1" pin="2"/>
@@ -22299,7 +22326,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="302.26" y1="160.02" x2="307.34" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EMERGENCY_STOP" class="0">
+<net name="INPUT2.4" class="0">
 <segment>
 <pinref part="R30" gate="G$1" pin="2"/>
 <pinref part="R34" gate="G$1" pin="1"/>
@@ -22321,7 +22348,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="302.26" y1="167.64" x2="307.34" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="230V_DETECTION" class="0">
+<net name="INPUT3.1" class="0">
 <segment>
 <label x="302.26" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U6" gate="A" pin="F"/>
@@ -22337,28 +22364,28 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="144.78" y1="226.06" x2="149.86" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EMERGENCY_STOP_MCU" class="0">
+<net name="INPUT2.4_MCU" class="0">
 <segment>
 <label x="347.98" y="172.72" size="1.27" layer="95" xref="yes"/>
 <pinref part="U6" gate="A" pin="G=A"/>
 <wire x1="342.9" y1="172.72" x2="347.98" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LIMIT_SWITCH_MCU" class="0">
+<net name="INPUT2.3_MCU" class="0">
 <segment>
 <label x="347.98" y="170.18" size="1.27" layer="95" xref="yes"/>
 <pinref part="U6" gate="A" pin="H=B"/>
 <wire x1="347.98" y1="170.18" x2="342.9" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DRIVE_STATUS_2_MCU" class="0">
+<net name="INPUT2.1_MCU" class="0">
 <segment>
 <label x="347.98" y="162.56" size="1.27" layer="95" xref="yes"/>
 <pinref part="U6" gate="A" pin="K=E"/>
 <wire x1="342.9" y1="162.56" x2="347.98" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DRIVE_STATUS_1_MCU" class="0">
+<net name="INPUT2.2_MCU" class="0">
 <segment>
 <label x="347.98" y="165.1" size="1.27" layer="95" xref="yes"/>
 <pinref part="U6" gate="A" pin="J=D"/>
@@ -22424,7 +22451,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="264.16" y1="218.44" x2="264.16" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="230V_DETECTION_MCU" class="0">
+<net name="INPUT3.1_MCU" class="0">
 <segment>
 <label x="347.98" y="160.02" size="1.27" layer="95" xref="yes"/>
 <pinref part="U6" gate="A" pin="L=F"/>
@@ -22475,7 +22502,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="OK2" gate="B" pin="EMIT"/>
 </segment>
 </net>
-<net name="SLOWFEED_1" class="0">
+<net name="INPUT1.4" class="0">
 <segment>
 <pinref part="R49" gate="G$1" pin="1"/>
 <pinref part="R45" gate="G$1" pin="2"/>
@@ -22497,7 +22524,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="304.8" y1="109.22" x2="307.34" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DRIVE_STATUS_2" class="0">
+<net name="INPUT2.1" class="0">
 <segment>
 <pinref part="R37" gate="G$1" pin="1"/>
 <pinref part="R33" gate="G$1" pin="2"/>
@@ -22519,14 +22546,14 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="302.26" y1="157.48" x2="307.34" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SLOWFEED_2_MCU" class="0">
+<net name="INPUT1.3_MCU" class="0">
 <segment>
 <label x="345.44" y="111.76" size="1.27" layer="95" xref="yes"/>
 <pinref part="U7" gate="A" pin="H=B"/>
 <wire x1="342.9" y1="111.76" x2="345.44" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SLOWFEED_1_MCU" class="0">
+<net name="INPUT1.4_MCU" class="0">
 <segment>
 <label x="345.44" y="114.3" size="1.27" layer="95" xref="yes"/>
 <pinref part="U7" gate="A" pin="G=A"/>
@@ -22556,7 +22583,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="OK2" gate="C" pin="EMIT"/>
 </segment>
 </net>
-<net name="INPUT1" class="0">
+<net name="INPUT1.2" class="0">
 <segment>
 <pinref part="R51" gate="G$1" pin="1"/>
 <pinref part="R47" gate="G$1" pin="2"/>
@@ -22578,7 +22605,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <label x="353.06" y="231.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="INPUT1_MCU" class="0">
+<net name="INPUT1.2_MCU" class="0">
 <segment>
 <label x="345.44" y="104.14" size="1.27" layer="95" xref="yes"/>
 <pinref part="U7" gate="A" pin="K=E"/>
@@ -22629,7 +22656,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="172.72" y1="127" x2="172.72" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="INPUT2" class="0">
+<net name="INPUT1.1" class="0">
 <segment>
 <pinref part="R52" gate="G$1" pin="1"/>
 <pinref part="R48" gate="G$1" pin="2"/>
@@ -22658,7 +22685,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="345.44" y1="218.44" x2="345.44" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="INPUT2_MCU" class="0">
+<net name="INPUT1.1_MCU" class="0">
 <segment>
 <pinref part="U7" gate="A" pin="J=D"/>
 <wire x1="342.9" y1="106.68" x2="345.44" y2="106.68" width="0.1524" layer="91"/>
@@ -23243,7 +23270,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="294.64" y1="48.26" x2="292.1" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="L_VALIDATION" class="0">
+<net name="OUTPUT2.2" class="0">
 <segment>
 <label x="195.58" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="T5" gate="G$1" pin="D"/>
@@ -23263,7 +23290,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="J8" gate="-3" pin="S"/>
 </segment>
 </net>
-<net name="CLUTCH_CONTROL" class="0">
+<net name="OUTPUT2.3" class="0">
 <segment>
 <label x="195.58" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="T6" gate="G$1" pin="D"/>
@@ -23290,7 +23317,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="312.42" y1="231.14" x2="314.96" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="R_VALIDATION_MCU" class="0">
+<net name="OUTPUT2.1_MCU" class="0">
 <segment>
 <pinref part="R89" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="231.14" x2="327.66" y2="231.14" width="0.1524" layer="91"/>
@@ -23318,21 +23345,21 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="312.42" y1="116.84" x2="314.96" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BRAKE_CONTROL_MCU" class="0">
+<net name="OUTPUT2.4_MCU" class="0">
 <segment>
 <pinref part="R92" gate="G$1" pin="2"/>
 <wire x1="327.66" y1="53.34" x2="325.12" y2="53.34" width="0.1524" layer="91"/>
 <label x="327.66" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CLUTCH_CONTROL_MCU" class="0">
+<net name="OUTPUT2.3_MCU" class="0">
 <segment>
 <pinref part="R91" gate="G$1" pin="2"/>
 <wire x1="327.66" y1="116.84" x2="325.12" y2="116.84" width="0.1524" layer="91"/>
 <label x="327.66" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="L_VALIDATION_MCU" class="0">
+<net name="OUTPUT2.2_MCU" class="0">
 <segment>
 <pinref part="R90" gate="G$1" pin="2"/>
 <wire x1="327.66" y1="175.26" x2="325.12" y2="175.26" width="0.1524" layer="91"/>
@@ -23367,7 +23394,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="269.24" y1="38.1" x2="269.24" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOTOR_CONTROL_MCU" class="0">
+<net name="OUTPUT3.2_MCU" class="0">
 <segment>
 <pinref part="R64" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
@@ -23464,7 +23491,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="254" y1="48.26" x2="256.54" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$30" class="0">
+<net name="MOTOR_VFQ" class="0">
 <segment>
 <pinref part="J9" gate="-1" pin="S"/>
 <wire x1="38.1" y1="43.18" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
@@ -23479,7 +23506,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <junction x="73.66" y="43.18"/>
 </segment>
 </net>
-<net name="R_VALIDATION" class="0">
+<net name="OUTPUT2.1" class="0">
 <segment>
 <wire x1="33.02" y1="172.72" x2="27.94" y2="172.72" width="0.1524" layer="91"/>
 <label x="33.02" y="172.72" size="1.27" layer="95" xref="yes"/>
@@ -23499,7 +23526,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <junction x="205.74" y="223.52"/>
 </segment>
 </net>
-<net name="BRAKE_CONTROL" class="0">
+<net name="OUTPUT2.4" class="0">
 <segment>
 <label x="195.58" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="T7" gate="G$1" pin="D"/>
@@ -23522,6 +23549,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </nets>
 </sheet>
 <sheet>
+<description>HMI LEDS</description>
 <plain>
 </plain>
 <instances>
@@ -24168,7 +24196,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="254" y1="48.26" x2="256.54" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED1" class="0">
+<net name="OUTPUT1.1" class="0">
 <segment>
 <pinref part="J10" gate="-2" pin="S"/>
 <wire x1="27.94" y1="172.72" x2="33.02" y2="172.72" width="0.1524" layer="91"/>
@@ -24190,7 +24218,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <label x="198.12" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LED2" class="0">
+<net name="OUTPUT1.2" class="0">
 <segment>
 <pinref part="J10" gate="-3" pin="S"/>
 <wire x1="27.94" y1="167.64" x2="33.02" y2="167.64" width="0.1524" layer="91"/>
@@ -24210,7 +24238,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <label x="198.12" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LED3" class="0">
+<net name="OUTPUT1.3" class="0">
 <segment>
 <pinref part="J10" gate="-4" pin="S"/>
 <wire x1="27.94" y1="162.56" x2="33.02" y2="162.56" width="0.1524" layer="91"/>
@@ -24230,35 +24258,35 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <label x="198.12" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LED2_MCU" class="0">
+<net name="OUTPUT1.2_MCU" class="0">
 <segment>
 <pinref part="R118" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="175.26" x2="325.12" y2="175.26" width="0.1524" layer="91"/>
 <label x="330.2" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LED4_MCU" class="0">
+<net name="OUTPUT1.4_MCU" class="0">
 <segment>
 <pinref part="R120" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="53.34" x2="325.12" y2="53.34" width="0.1524" layer="91"/>
 <label x="330.2" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LED3_MCU" class="0">
+<net name="OUTPUT1.3_MCU" class="0">
 <segment>
 <pinref part="R119" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="116.84" x2="325.12" y2="116.84" width="0.1524" layer="91"/>
 <label x="330.2" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LED1_MCU" class="0">
+<net name="OUTPUT1.1_MCU" class="0">
 <segment>
 <pinref part="R117" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="231.14" x2="330.2" y2="231.14" width="0.1524" layer="91"/>
 <label x="330.2" y="231.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LED4" class="0">
+<net name="OUTPUT1.4" class="0">
 <segment>
 <pinref part="T15" gate="G$1" pin="D"/>
 <pinref part="R96" gate="G$1" pin="2"/>
