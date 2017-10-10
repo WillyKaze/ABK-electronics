@@ -8,24 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="16" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="17" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="19" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="21" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="18" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="38" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="7" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="55" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="54" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="55" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="54" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="53" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="52" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="16" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="17" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="19" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="21" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="18" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="38" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="7" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="55" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="54" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="55" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="54" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="53" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="52" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="3" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,16 +43,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="16" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="35" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="35" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="21" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="24" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="48" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="55" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="54" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="35" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="21" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="24" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="48" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="55" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="54" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -18645,8 +18645,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </part>
 <part name="LED3" library="led" deviceset="LED" device="CHIPLED_0603" value="Red">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="OVS-0603"/>
-<attribute name="OC_NEWARK" value="15R2205"/>
+<attribute name="MPN" value="OVS-0608"/>
+<attribute name="OC_NEWARK" value="15R2208"/>
 </part>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
@@ -18849,8 +18849,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="LED7" library="led" deviceset="LED" device="CHIPLED_0603" value="Red">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="OVS-0603"/>
-<attribute name="OC_NEWARK" value="15R2205"/>
+<attribute name="MPN" value="OVS-0608"/>
+<attribute name="OC_NEWARK" value="15R2208"/>
 </part>
 <part name="R41" library="rcl" deviceset="R-EU_" device="R0603" value="1K5">
 <attribute name="MF" value=""/>
@@ -19080,76 +19080,76 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="GND98" library="supply1" deviceset="GND" device=""/>
 <part name="GND99" library="supply1" deviceset="GND" device=""/>
 <part name="GND100" library="supply1" deviceset="GND" device=""/>
-<part name="R70" library="rcl" deviceset="R-EU_" device="R0603" value="330">
+<part name="R70" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-07330RL"/>
-<attribute name="OC_NEWARK" value="98K7391"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="OC_NEWARK" value="68R0049"/>
 </part>
 <part name="GND93" library="supply1" deviceset="GND" device=""/>
 <part name="P+25" library="supply3" deviceset="+24V" device=""/>
-<part name="R74" library="rcl" deviceset="R-EU_" device="R0603" value="100">
+<part name="R74" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-13100RL"/>
-<attribute name="OC_NEWARK" value="68R0131"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="OC_NEWARK" value="68R0042"/>
 </part>
 <part name="R82" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="RC0603FR-074K7L"/>
 <attribute name="OC_NEWARK" value="68R0092"/>
 </part>
-<part name="R86" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-071KL"/>
-<attribute name="OC_NEWARK" value="68R0042"/>
-</part>
-<part name="GND85" library="supply1" deviceset="GND" device=""/>
-<part name="GND94" library="supply1" deviceset="GND" device=""/>
-<part name="R75" library="rcl" deviceset="R-EU_" device="R0603" value="100">
+<part name="R86" library="rcl" deviceset="R-EU_" device="R0603" value="100">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="RC0603FR-13100RL"/>
 <attribute name="OC_NEWARK" value="68R0131"/>
+</part>
+<part name="GND85" library="supply1" deviceset="GND" device=""/>
+<part name="GND94" library="supply1" deviceset="GND" device=""/>
+<part name="R75" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="OC_NEWARK" value="68R0042"/>
 </part>
 <part name="R83" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="RC0603FR-074K7L"/>
 <attribute name="OC_NEWARK" value="68R0092"/>
 </part>
-<part name="R87" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-071KL"/>
-<attribute name="OC_NEWARK" value="68R0042"/>
-</part>
-<part name="GND95" library="supply1" deviceset="GND" device=""/>
-<part name="R76" library="rcl" deviceset="R-EU_" device="R0603" value="100">
+<part name="R87" library="rcl" deviceset="R-EU_" device="R0603" value="100">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="RC0603FR-13100RL"/>
 <attribute name="OC_NEWARK" value="68R0131"/>
+</part>
+<part name="GND95" library="supply1" deviceset="GND" device=""/>
+<part name="R76" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="OC_NEWARK" value="68R0042"/>
 </part>
 <part name="R84" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="RC0603FR-074K7L"/>
 <attribute name="OC_NEWARK" value="68R0092"/>
 </part>
-<part name="R88" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-071KL"/>
-<attribute name="OC_NEWARK" value="68R0042"/>
-</part>
-<part name="GND96" library="supply1" deviceset="GND" device=""/>
-<part name="R77" library="rcl" deviceset="R-EU_" device="R0603" value="100">
+<part name="R88" library="rcl" deviceset="R-EU_" device="R0603" value="100">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="RC0603FR-13100RL"/>
 <attribute name="OC_NEWARK" value="68R0131"/>
+</part>
+<part name="GND96" library="supply1" deviceset="GND" device=""/>
+<part name="R77" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="OC_NEWARK" value="68R0042"/>
 </part>
 <part name="R85" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="RC0603FR-074K7L"/>
 <attribute name="OC_NEWARK" value="68R0092"/>
 </part>
-<part name="R89" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
+<part name="R89" library="rcl" deviceset="R-EU_" device="R0603" value="100">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-071KL"/>
-<attribute name="OC_NEWARK" value="68R0042"/>
+<attribute name="MPN" value="RC0603FR-13100RL"/>
+<attribute name="OC_NEWARK" value="68R0131"/>
 </part>
 <part name="P+32" library="supply1" deviceset="+5V" device=""/>
 <part name="P+31" library="supply1" deviceset="+5V" device=""/>
@@ -19252,10 +19252,10 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" value="1N4148WS"/>
 <attribute name="OC_NEWARK" value="31Y5518"/>
 </part>
-<part name="R71" library="rcl" deviceset="R-EU_" device="R0603" value="330">
+<part name="R71" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-07330RL"/>
-<attribute name="OC_NEWARK" value="98K7391"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="OC_NEWARK" value="68R0049"/>
 </part>
 <part name="P+26" library="supply3" deviceset="+24V" device=""/>
 <part name="GND86" library="supply1" deviceset="GND" device=""/>
@@ -19281,10 +19281,10 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" value="1N4148WS"/>
 <attribute name="OC_NEWARK" value="31Y5518"/>
 </part>
-<part name="R72" library="rcl" deviceset="R-EU_" device="R0603" value="330">
+<part name="R72" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-07330RL"/>
-<attribute name="OC_NEWARK" value="98K7391"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="OC_NEWARK" value="68R0049"/>
 </part>
 <part name="P+27" library="supply3" deviceset="+24V" device=""/>
 <part name="GND87" library="supply1" deviceset="GND" device=""/>
@@ -19310,10 +19310,10 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" value="1N4148WS"/>
 <attribute name="OC_NEWARK" value="31Y5518"/>
 </part>
-<part name="R73" library="rcl" deviceset="R-EU_" device="R0603" value="330">
+<part name="R73" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-07330RL"/>
-<attribute name="OC_NEWARK" value="98K7391"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="OC_NEWARK" value="68R0049"/>
 </part>
 <part name="P+28" library="supply3" deviceset="+24V" device=""/>
 <part name="GND88" library="supply1" deviceset="GND" device=""/>
@@ -19339,10 +19339,10 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" value="1N4148WS"/>
 <attribute name="OC_NEWARK" value="31Y5518"/>
 </part>
-<part name="R64" library="rcl" deviceset="R-EU_" device="R0603" value="330">
+<part name="R64" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-07330RL"/>
-<attribute name="OC_NEWARK" value="98K7391"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="OC_NEWARK" value="68R0049"/>
 </part>
 <part name="P+20" library="supply3" deviceset="+24V" device=""/>
 <part name="GND80" library="supply1" deviceset="GND" device=""/>
@@ -19386,76 +19386,76 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="GND119" library="supply1" deviceset="GND" device=""/>
 <part name="GND120" library="supply1" deviceset="GND" device=""/>
 <part name="GND121" library="supply1" deviceset="GND" device=""/>
-<part name="R98" library="rcl" deviceset="R-EU_" device="R0603" value="330">
+<part name="R98" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-07330RL"/>
-<attribute name="OC_NEWARK" value="98K7391"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="OC_NEWARK" value="68R0049"/>
 </part>
 <part name="GND114" library="supply1" deviceset="GND" device=""/>
 <part name="P+38" library="supply3" deviceset="+24V" device=""/>
-<part name="R102" library="rcl" deviceset="R-EU_" device="R0603" value="100">
+<part name="R102" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-13100RL"/>
-<attribute name="OC_NEWARK" value="68R0131"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="OC_NEWARK" value="68R0042"/>
 </part>
 <part name="R110" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="RC0603FR-074K7L"/>
 <attribute name="OC_NEWARK" value="68R0092"/>
 </part>
-<part name="R114" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-071KL"/>
-<attribute name="OC_NEWARK" value="68R0042"/>
-</part>
-<part name="GND106" library="supply1" deviceset="GND" device=""/>
-<part name="GND115" library="supply1" deviceset="GND" device=""/>
-<part name="R103" library="rcl" deviceset="R-EU_" device="R0603" value="100">
+<part name="R114" library="rcl" deviceset="R-EU_" device="R0603" value="100">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="RC0603FR-13100RL"/>
 <attribute name="OC_NEWARK" value="68R0131"/>
+</part>
+<part name="GND106" library="supply1" deviceset="GND" device=""/>
+<part name="GND115" library="supply1" deviceset="GND" device=""/>
+<part name="R103" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="OC_NEWARK" value="68R0042"/>
 </part>
 <part name="R111" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="RC0603FR-074K7L"/>
 <attribute name="OC_NEWARK" value="68R0092"/>
 </part>
-<part name="R115" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-071KL"/>
-<attribute name="OC_NEWARK" value="68R0042"/>
-</part>
-<part name="GND116" library="supply1" deviceset="GND" device=""/>
-<part name="R104" library="rcl" deviceset="R-EU_" device="R0603" value="100">
+<part name="R115" library="rcl" deviceset="R-EU_" device="R0603" value="100">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="RC0603FR-13100RL"/>
 <attribute name="OC_NEWARK" value="68R0131"/>
+</part>
+<part name="GND116" library="supply1" deviceset="GND" device=""/>
+<part name="R104" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="OC_NEWARK" value="68R0042"/>
 </part>
 <part name="R112" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="RC0603FR-074K7L"/>
 <attribute name="OC_NEWARK" value="68R0092"/>
 </part>
-<part name="R116" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-071KL"/>
-<attribute name="OC_NEWARK" value="68R0042"/>
-</part>
-<part name="GND117" library="supply1" deviceset="GND" device=""/>
-<part name="R105" library="rcl" deviceset="R-EU_" device="R0603" value="100">
+<part name="R116" library="rcl" deviceset="R-EU_" device="R0603" value="100">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="RC0603FR-13100RL"/>
 <attribute name="OC_NEWARK" value="68R0131"/>
+</part>
+<part name="GND117" library="supply1" deviceset="GND" device=""/>
+<part name="R105" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="OC_NEWARK" value="68R0042"/>
 </part>
 <part name="R113" library="rcl" deviceset="R-EU_" device="R0603" value="4K7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="RC0603FR-074K7L"/>
 <attribute name="OC_NEWARK" value="68R0092"/>
 </part>
-<part name="R117" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
+<part name="R117" library="rcl" deviceset="R-EU_" device="R0603" value="100">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-071KL"/>
-<attribute name="OC_NEWARK" value="68R0042"/>
+<attribute name="MPN" value="RC0603FR-13100RL"/>
+<attribute name="OC_NEWARK" value="68R0131"/>
 </part>
 <part name="P+45" library="supply1" deviceset="+5V" device=""/>
 <part name="P+44" library="supply1" deviceset="+5V" device=""/>
@@ -19548,10 +19548,10 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" value="1N4148WS"/>
 <attribute name="OC_NEWARK" value="31Y5518"/>
 </part>
-<part name="R99" library="rcl" deviceset="R-EU_" device="R0603" value="330">
+<part name="R99" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-07330RL"/>
-<attribute name="OC_NEWARK" value="98K7391"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="OC_NEWARK" value="68R0049"/>
 </part>
 <part name="P+39" library="supply3" deviceset="+24V" device=""/>
 <part name="GND107" library="supply1" deviceset="GND" device=""/>
@@ -19577,10 +19577,10 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" value="1N4148WS"/>
 <attribute name="OC_NEWARK" value="31Y5518"/>
 </part>
-<part name="R100" library="rcl" deviceset="R-EU_" device="R0603" value="330">
+<part name="R100" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-07330RL"/>
-<attribute name="OC_NEWARK" value="98K7391"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="OC_NEWARK" value="68R0049"/>
 </part>
 <part name="P+40" library="supply3" deviceset="+24V" device=""/>
 <part name="GND108" library="supply1" deviceset="GND" device=""/>
@@ -19606,10 +19606,10 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" value="1N4148WS"/>
 <attribute name="OC_NEWARK" value="31Y5518"/>
 </part>
-<part name="R101" library="rcl" deviceset="R-EU_" device="R0603" value="330">
+<part name="R101" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-07330RL"/>
-<attribute name="OC_NEWARK" value="98K7391"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="OC_NEWARK" value="68R0049"/>
 </part>
 <part name="P+41" library="supply3" deviceset="+24V" device=""/>
 <part name="GND109" library="supply1" deviceset="GND" device=""/>
@@ -22822,7 +22822,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </nets>
 </sheet>
 <sheet>
-<description>OUTPUT</description>
+<description>OUTPUT 1/2</description>
 <plain>
 </plain>
 <instances>
@@ -22843,16 +22843,16 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="GND99" gate="1" x="320.04" y="106.68"/>
 <instance part="GND100" gate="1" x="320.04" y="40.64"/>
 <instance part="R70" gate="G$1" x="248.92" y="243.84" rot="MR90">
-<attribute name="OC_NEWARK" x="248.92" y="243.84" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MF" x="248.92" y="243.84" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="248.92" y="243.84" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" x="248.92" y="243.84" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="248.92" y="243.84" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="248.92" y="243.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND93" gate="1" x="279.4" y="208.28"/>
 <instance part="P+25" gate="1" x="248.92" y="254"/>
 <instance part="R74" gate="G$1" x="261.62" y="226.06" rot="MR0">
-<attribute name="OC_NEWARK" x="261.62" y="226.06" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="261.62" y="226.06" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="261.62" y="226.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="OC_NEWARK" x="261.62" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="261.62" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="261.62" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R82" gate="G$1" x="279.4" y="218.44" rot="MR270">
 <attribute name="OC_NEWARK" x="279.4" y="218.44" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -22860,16 +22860,16 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" x="279.4" y="218.44" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R86" gate="G$1" x="287.02" y="226.06" rot="MR180">
-<attribute name="OC_NEWARK" x="287.02" y="226.06" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="287.02" y="226.06" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="287.02" y="226.06" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="OC_NEWARK" x="287.02" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="287.02" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="287.02" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND85" gate="1" x="248.92" y="205.74"/>
 <instance part="GND94" gate="1" x="279.4" y="152.4"/>
 <instance part="R75" gate="G$1" x="261.62" y="170.18" rot="MR0">
-<attribute name="OC_NEWARK" x="261.62" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="261.62" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="261.62" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="OC_NEWARK" x="261.62" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="261.62" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="261.62" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R83" gate="G$1" x="279.4" y="162.56" rot="MR270">
 <attribute name="OC_NEWARK" x="279.4" y="162.56" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -22877,15 +22877,15 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" x="279.4" y="162.56" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R87" gate="G$1" x="287.02" y="170.18" rot="MR180">
-<attribute name="OC_NEWARK" x="287.02" y="170.18" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="287.02" y="170.18" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="287.02" y="170.18" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="OC_NEWARK" x="287.02" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="287.02" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="287.02" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND95" gate="1" x="279.4" y="93.98"/>
 <instance part="R76" gate="G$1" x="261.62" y="111.76" rot="MR0">
-<attribute name="OC_NEWARK" x="261.62" y="111.76" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="261.62" y="111.76" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="261.62" y="111.76" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="OC_NEWARK" x="261.62" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="261.62" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="261.62" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R84" gate="G$1" x="279.4" y="104.14" rot="MR270">
 <attribute name="OC_NEWARK" x="279.4" y="104.14" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -22893,15 +22893,15 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" x="279.4" y="104.14" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R88" gate="G$1" x="287.02" y="111.76" rot="MR180">
-<attribute name="OC_NEWARK" x="287.02" y="111.76" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="287.02" y="111.76" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="287.02" y="111.76" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="OC_NEWARK" x="287.02" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="287.02" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="287.02" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND96" gate="1" x="279.4" y="30.48"/>
 <instance part="R77" gate="G$1" x="261.62" y="48.26" rot="MR0">
-<attribute name="OC_NEWARK" x="261.62" y="48.26" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="261.62" y="48.26" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="261.62" y="48.26" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="OC_NEWARK" x="261.62" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="261.62" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="261.62" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R85" gate="G$1" x="279.4" y="40.64" rot="MR270">
 <attribute name="OC_NEWARK" x="279.4" y="40.64" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -22909,9 +22909,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" x="279.4" y="40.64" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R89" gate="G$1" x="287.02" y="48.26" rot="MR180">
-<attribute name="OC_NEWARK" x="287.02" y="48.26" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="287.02" y="48.26" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="287.02" y="48.26" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="OC_NEWARK" x="287.02" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="287.02" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="287.02" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+32" gate="1" x="292.1" y="60.96"/>
 <instance part="P+31" gate="1" x="292.1" y="124.46"/>
@@ -23013,9 +23013,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" x="205.74" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R71" gate="G$1" x="248.92" y="187.96" rot="MR90">
-<attribute name="OC_NEWARK" x="248.92" y="187.96" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MF" x="248.92" y="187.96" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="248.92" y="187.96" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" x="248.92" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="248.92" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="248.92" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+26" gate="1" x="248.92" y="198.12"/>
 <instance part="GND86" gate="1" x="248.92" y="147.32"/>
@@ -23042,9 +23042,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" x="205.74" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R72" gate="G$1" x="248.92" y="129.54" rot="MR90">
-<attribute name="OC_NEWARK" x="248.92" y="129.54" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MF" x="248.92" y="129.54" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="248.92" y="129.54" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" x="248.92" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="248.92" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="248.92" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+27" gate="1" x="248.92" y="139.7"/>
 <instance part="GND87" gate="1" x="248.92" y="91.44"/>
@@ -23071,9 +23071,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" x="205.74" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R73" gate="G$1" x="248.92" y="66.04" rot="MR90">
-<attribute name="OC_NEWARK" x="248.92" y="66.04" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MF" x="248.92" y="66.04" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="248.92" y="66.04" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" x="248.92" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="248.92" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="248.92" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+28" gate="1" x="248.92" y="76.2"/>
 <instance part="GND88" gate="1" x="248.92" y="27.94"/>
@@ -23100,9 +23100,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" x="205.74" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R64" gate="G$1" x="116.84" y="63.5" rot="MR90">
-<attribute name="OC_NEWARK" x="116.84" y="63.5" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MF" x="116.84" y="63.5" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="116.84" y="63.5" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" x="116.84" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="116.84" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="116.84" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+20" gate="1" x="116.84" y="73.66"/>
 <instance part="GND80" gate="1" x="116.84" y="25.4"/>
@@ -23736,7 +23736,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </nets>
 </sheet>
 <sheet>
-<description>HMI LEDS</description>
+<description>OUTPUT 2/2</description>
 <plain>
 </plain>
 <instances>
@@ -23757,16 +23757,16 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="GND120" gate="1" x="320.04" y="106.68"/>
 <instance part="GND121" gate="1" x="320.04" y="40.64"/>
 <instance part="R98" gate="G$1" x="248.92" y="243.84" rot="MR90">
-<attribute name="OC_NEWARK" x="248.92" y="243.84" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MF" x="248.92" y="243.84" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="248.92" y="243.84" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" x="248.92" y="243.84" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="248.92" y="243.84" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="248.92" y="243.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND114" gate="1" x="279.4" y="208.28"/>
 <instance part="P+38" gate="1" x="248.92" y="254"/>
 <instance part="R102" gate="G$1" x="261.62" y="226.06" rot="MR0">
-<attribute name="OC_NEWARK" x="261.62" y="226.06" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="261.62" y="226.06" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="261.62" y="226.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="OC_NEWARK" x="261.62" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="261.62" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="261.62" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R110" gate="G$1" x="279.4" y="218.44" rot="MR270">
 <attribute name="OC_NEWARK" x="279.4" y="218.44" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -23774,16 +23774,16 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" x="279.4" y="218.44" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R114" gate="G$1" x="287.02" y="226.06" rot="MR180">
-<attribute name="OC_NEWARK" x="287.02" y="226.06" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="287.02" y="226.06" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="287.02" y="226.06" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="OC_NEWARK" x="287.02" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="287.02" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="287.02" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND106" gate="1" x="248.92" y="205.74"/>
 <instance part="GND115" gate="1" x="279.4" y="152.4"/>
 <instance part="R103" gate="G$1" x="261.62" y="170.18" rot="MR0">
-<attribute name="OC_NEWARK" x="261.62" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="261.62" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="261.62" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="OC_NEWARK" x="261.62" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="261.62" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="261.62" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R111" gate="G$1" x="279.4" y="162.56" rot="MR270">
 <attribute name="OC_NEWARK" x="279.4" y="162.56" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -23791,15 +23791,15 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" x="279.4" y="162.56" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R115" gate="G$1" x="287.02" y="170.18" rot="MR180">
-<attribute name="OC_NEWARK" x="287.02" y="170.18" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="287.02" y="170.18" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="287.02" y="170.18" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="OC_NEWARK" x="287.02" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="287.02" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="287.02" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND116" gate="1" x="279.4" y="93.98"/>
 <instance part="R104" gate="G$1" x="261.62" y="111.76" rot="MR0">
-<attribute name="OC_NEWARK" x="261.62" y="111.76" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="261.62" y="111.76" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="261.62" y="111.76" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="OC_NEWARK" x="261.62" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="261.62" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="261.62" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R112" gate="G$1" x="279.4" y="104.14" rot="MR270">
 <attribute name="OC_NEWARK" x="279.4" y="104.14" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -23807,15 +23807,15 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" x="279.4" y="104.14" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R116" gate="G$1" x="287.02" y="111.76" rot="MR180">
-<attribute name="OC_NEWARK" x="287.02" y="111.76" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="287.02" y="111.76" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="287.02" y="111.76" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="OC_NEWARK" x="287.02" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="287.02" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="287.02" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND117" gate="1" x="279.4" y="30.48"/>
 <instance part="R105" gate="G$1" x="261.62" y="48.26" rot="MR0">
-<attribute name="OC_NEWARK" x="261.62" y="48.26" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MF" x="261.62" y="48.26" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="261.62" y="48.26" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="OC_NEWARK" x="261.62" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="261.62" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="261.62" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R113" gate="G$1" x="279.4" y="40.64" rot="MR270">
 <attribute name="OC_NEWARK" x="279.4" y="40.64" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -23823,9 +23823,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" x="279.4" y="40.64" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R117" gate="G$1" x="287.02" y="48.26" rot="MR180">
-<attribute name="OC_NEWARK" x="287.02" y="48.26" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="287.02" y="48.26" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="287.02" y="48.26" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="OC_NEWARK" x="287.02" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="287.02" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="287.02" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+45" gate="1" x="292.1" y="60.96"/>
 <instance part="P+44" gate="1" x="292.1" y="124.46"/>
@@ -23919,9 +23919,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" x="205.74" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R99" gate="G$1" x="248.92" y="187.96" rot="MR90">
-<attribute name="OC_NEWARK" x="248.92" y="187.96" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MF" x="248.92" y="187.96" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="248.92" y="187.96" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" x="248.92" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="248.92" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="248.92" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+39" gate="1" x="248.92" y="198.12"/>
 <instance part="GND107" gate="1" x="248.92" y="147.32"/>
@@ -23948,9 +23948,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" x="205.74" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R100" gate="G$1" x="248.92" y="129.54" rot="MR90">
-<attribute name="OC_NEWARK" x="248.92" y="129.54" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MF" x="248.92" y="129.54" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="248.92" y="129.54" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" x="248.92" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="248.92" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="248.92" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+40" gate="1" x="248.92" y="139.7"/>
 <instance part="GND108" gate="1" x="248.92" y="91.44"/>
@@ -23977,9 +23977,9 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <attribute name="MPN" x="205.74" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R101" gate="G$1" x="248.92" y="66.04" rot="MR90">
-<attribute name="OC_NEWARK" x="248.92" y="66.04" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MF" x="248.92" y="66.04" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="248.92" y="66.04" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" x="248.92" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="248.92" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="248.92" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+41" gate="1" x="248.92" y="76.2"/>
 <instance part="GND109" gate="1" x="248.92" y="27.94"/>
