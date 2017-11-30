@@ -21412,6 +21412,11 @@ http://www.tag-connect.com</description>
 <wire x1="358.14" y1="66.04" x2="370.84" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="66.04" x2="370.84" y2="58.42" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="325.12" y1="170.18" x2="317.5" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="P2[0]/PWM1[1]/TXD1"/>
+<label x="325.12" y="170.18" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="EEPROM_SDA" class="0">
 <segment>
@@ -21571,6 +21576,11 @@ http://www.tag-connect.com</description>
 <wire x1="134.62" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="P1[21]/*MCABORT/PWM1[3]/SSEL0"/>
 <label x="127" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="325.12" y1="167.64" x2="317.5" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="P2[1]/PWM1[2]/RXD1"/>
+<label x="325.12" y="167.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="!JTAG_TRST" class="0">
