@@ -21402,11 +21402,6 @@ http://www.tag-connect.com</description>
 </net>
 <net name="ONBOARD_LED1" class="1">
 <segment>
-<pinref part="U2" gate="A" pin="P1[18]/USB_UP_LED/PWM1[1]/CAP1[0]"/>
-<wire x1="134.62" y1="154.94" x2="127" y2="154.94" width="0.1524" layer="91"/>
-<label x="127" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <label x="358.14" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="358.14" y1="66.04" x2="370.84" y2="66.04" width="0.1524" layer="91"/>
@@ -21571,11 +21566,6 @@ http://www.tag-connect.com</description>
 <wire x1="363.22" y1="60.96" x2="363.22" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="60.96" x2="358.14" y2="60.96" width="0.1524" layer="91"/>
 <label x="358.14" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="134.62" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="P1[21]/*MCABORT/PWM1[3]/SSEL0"/>
-<label x="127" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="325.12" y1="167.64" x2="317.5" y2="167.64" width="0.1524" layer="91"/>
