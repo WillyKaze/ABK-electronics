@@ -20767,6 +20767,11 @@ http://www.tag-connect.com</description>
 </part>
 <part name="GND123" library="supply1" deviceset="GND" device=""/>
 <part name="P+46" library="supply1" deviceset="+5V" device=""/>
+<part name="R132" library="rcl" deviceset="R-EU_" device="R0603" value="0R">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="RC0603FR-070RL"/>
+<attribute name="OC_NEWARK" value="50Y7761"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -20996,12 +21001,12 @@ http://www.tag-connect.com</description>
 <attribute name="MPN" x="172.72" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND12" gate="1" x="180.34" y="12.7"/>
-<instance part="R9" gate="G$1" x="182.88" y="50.8" rot="R270">
-<attribute name="OC_NEWARK" x="182.88" y="50.8" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="182.88" y="50.8" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="182.88" y="50.8" size="1.778" layer="96" display="off"/>
+<instance part="R9" gate="G$1" x="182.88" y="48.26" rot="R270">
+<attribute name="OC_NEWARK" x="182.88" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="182.88" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="182.88" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="+3V311" gate="G$1" x="182.88" y="73.66"/>
+<instance part="+3V311" gate="G$1" x="182.88" y="76.2"/>
 <instance part="LED2" gate="G$1" x="370.84" y="55.88">
 <attribute name="OC_NEWARK" x="370.84" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="370.84" y="55.88" size="1.778" layer="96" display="off"/>
@@ -21041,6 +21046,11 @@ http://www.tag-connect.com</description>
 <instance part="R6" gate="G$1" x="152.4" y="40.64"/>
 <instance part="R5" gate="G$1" x="144.78" y="33.02" rot="R90"/>
 <instance part="GND11" gate="1" x="144.78" y="12.7"/>
+<instance part="R132" gate="G$1" x="175.26" y="63.5" rot="R270">
+<attribute name="OC_NEWARK" x="175.26" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="175.26" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="175.26" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21171,6 +21181,11 @@ http://www.tag-connect.com</description>
 <pinref part="T1" gate="G$1" pin="C"/>
 <pinref part="+3V311" gate="G$1" pin="+3V3"/>
 <wire x1="182.88" y1="68.58" x2="182.88" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="R132" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="71.12" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="71.12" x2="175.26" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="71.12" x2="175.26" y2="68.58" width="0.1524" layer="91"/>
+<junction x="182.88" y="71.12"/>
 </segment>
 </net>
 <net name="GND" class="2">
@@ -21586,7 +21601,7 @@ http://www.tag-connect.com</description>
 <wire x1="177.8" y1="35.56" x2="182.88" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="35.56" x2="187.96" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="35.56" x2="182.88" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="35.56" x2="182.88" y2="43.18" width="0.1524" layer="91"/>
 <junction x="182.88" y="35.56"/>
 <pinref part="J1" gate="G$1" pin="DATA+"/>
 </segment>
@@ -21769,6 +21784,11 @@ http://www.tag-connect.com</description>
 <pinref part="T1" gate="G$1" pin="E"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="58.42" x2="182.88" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R132" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="55.88" x2="182.88" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="55.88" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="55.88" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
+<junction x="182.88" y="55.88"/>
 </segment>
 </net>
 <net name="USB_CONNECT" class="0">
