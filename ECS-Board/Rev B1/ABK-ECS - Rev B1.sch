@@ -16566,13 +16566,11 @@ Based on the previous libraries:
 <wire x1="-0.9398" y1="1.4986" x2="-1.4986" y2="1.4986" width="0.1524" layer="21"/>
 <wire x1="-1.4986" y1="-1.4986" x2="1.4986" y2="-1.4986" width="0" layer="51"/>
 <wire x1="1.4986" y1="-1.4986" x2="1.4986" y2="1.4986" width="0" layer="51"/>
-<wire x1="1.4986" y1="1.4986" x2="0.3048" y2="1.4986" width="0" layer="51"/>
-<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0" layer="51"/>
-<wire x1="-0.3048" y1="1.4986" x2="-1.4986" y2="1.4986" width="0" layer="51"/>
+<wire x1="1.4986" y1="1.4986" x2="-1.4986" y2="1.4986" width="0" layer="51"/>
 <wire x1="-1.4986" y1="1.4986" x2="-1.4986" y2="-1.4986" width="0" layer="51"/>
-<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0" layer="51" curve="-180"/>
-<text x="-3.4544" y="-4.2164" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="1.905" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0.1524" layer="21" curve="-140"/>
+<text x="-1.5494" y="-2.3114" size="0.4064" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-1.5494" y="1.905" size="0.6096" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -18013,8 +18011,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="1.4478" y1="0.6477" x2="1.4478" y2="-0.6477" width="0.127" layer="21"/>
 <wire x1="1.4478" y1="-0.6477" x2="-1.4478" y2="-0.6477" width="0.127" layer="21"/>
 <wire x1="-1.4478" y1="-0.6477" x2="-1.4478" y2="0.6477" width="0.127" layer="21"/>
-<text x="-2.54" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.81" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="2.54" y="-1.27" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-1.27" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -18296,8 +18294,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="-1.905" y1="-1.7145" x2="1.905" y2="-1.7145" width="0.127" layer="21"/>
 <wire x1="1.905" y1="-1.7145" x2="1.905" y2="1.7145" width="0.127" layer="21"/>
 <wire x1="1.905" y1="1.7145" x2="-1.905" y2="1.7145" width="0.127" layer="21"/>
-<text x="3.175" y="-1.905" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
-<text x="4.445" y="-1.905" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
+<text x="3.175" y="-1.905" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-1.905" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
 <circle x="-2.54" y="-2.54" radius="0.254" width="0.6096" layer="21"/>
 </package>
 <package name="FTSH-105-01-L-DV">
@@ -18334,8 +18332,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="-3.175" y1="-1.7145" x2="3.175" y2="-1.7145" width="0.127" layer="21"/>
 <wire x1="3.175" y1="-1.7145" x2="3.175" y2="1.7145" width="0.127" layer="21"/>
 <wire x1="3.175" y1="1.7145" x2="-3.175" y2="1.7145" width="0.127" layer="21"/>
-<text x="4.445" y="-1.905" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
-<text x="5.715" y="-1.905" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
+<text x="4.445" y="-1.905" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-1.905" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
 <circle x="-3.81" y="-2.54" radius="0.254" width="0.6096" layer="21"/>
 </package>
 </packages>
@@ -18486,8 +18484,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <hole x="-3.81" y="0" drill="0.9906"/>
 <hole x="3.81" y="1.016" drill="0.9906"/>
 <hole x="3.81" y="-1.016" drill="0.9906"/>
-<text x="-4.445" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-4.445" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.445" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-4.445" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
 </package>
 <package name="TC2030-IDC">
 <smd name="2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
@@ -18522,8 +18520,8 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <hole x="-2.54" y="0" drill="0.9906"/>
 <hole x="2.54" y="1.016" drill="0.9906"/>
 <hole x="2.54" y="-1.016" drill="0.9906"/>
-<text x="-3.175" y="1.905" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-3.175" y="-3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-3.175" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -19148,8 +19146,8 @@ http://www.tag-connect.com</description>
 <wire x1="3.048" y1="3.048" x2="-3.048" y2="3.048" width="0.1524" layer="51"/>
 <wire x1="-3.048" y1="3.048" x2="-3.048" y2="-3.048" width="0.1524" layer="51"/>
 <text x="-3.1242" y="1.8542" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-3.81" y="6.35" size="1.778" layer="25">&gt;NAME</text>
-<text x="-3.81" y="3.81" size="1.778" layer="27">&gt;VALUE</text>
+<text x="-1.905" y="4.445" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.905" y="3.81" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -20767,7 +20765,7 @@ http://www.tag-connect.com</description>
 </part>
 <part name="GND123" library="supply1" deviceset="GND" device=""/>
 <part name="P+46" library="supply1" deviceset="+5V" device=""/>
-<part name="R132" library="rcl" deviceset="R-EU_" device="R0603" value="0R">
+<part name="R132" library="rcl" deviceset="R-EU_" device="R0603" value="0R, DNI">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="RC0603FR-070RL"/>
 <attribute name="OC_NEWARK" value="50Y7761"/>
