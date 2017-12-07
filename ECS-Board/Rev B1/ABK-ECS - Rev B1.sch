@@ -16083,10 +16083,10 @@ Source: www.kingbright.com</description>
 <wire x1="1.651" y1="-11.303" x2="1.3208" y2="-11.6586" width="0.254" layer="51"/>
 <pad name="1" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="2.6401" y="2.9479" size="1.016" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="-2.0051" y="2.7671" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="1.27" y="-3.81" size="1.27" layer="51" ratio="14" rot="R270" align="center">1</text>
 <text x="-1.27" y="-3.81" size="1.27" layer="51" ratio="14" rot="R270" align="center">2</text>
-<text x="3.4021" y="-2.4399" size="0.8128" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+<text x="-2.0051" y="2.1321" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
 <rectangle x1="1.016" y1="-2.5146" x2="1.524" y2="-0.2794" layer="51"/>
@@ -20775,7 +20775,7 @@ http://www.tag-connect.com</description>
 <sheet>
 <description>MCU</description>
 <plain>
-<text x="124.46" y="78.74" size="1.778" layer="97">USB</text>
+<text x="124.46" y="78.74" size="1.778" layer="97" font="vector">USB</text>
 <wire x1="208.28" y1="81.28" x2="208.28" y2="3.81" width="0.1524" layer="97"/>
 <wire x1="123.19" y1="81.28" x2="123.19" y2="3.81" width="0.1524" layer="97"/>
 <wire x1="208.28" y1="81.28" x2="123.19" y2="81.28" width="0.1524" layer="97"/>
@@ -20786,18 +20786,18 @@ http://www.tag-connect.com</description>
 <wire x1="340.36" y1="81.28" x2="340.36" y2="24.13" width="0.1524" layer="97"/>
 <wire x1="340.36" y1="81.28" x2="289.56" y2="81.28" width="0.1524" layer="97"/>
 <wire x1="383.54" y1="81.28" x2="340.36" y2="81.28" width="0.1524" layer="97"/>
-<text x="209.55" y="78.74" size="1.778" layer="97">BOOT SELECT</text>
-<text x="341.63" y="78.74" size="1.778" layer="97">LED ON BOARD</text>
-<text x="290.83" y="78.74" size="1.778" layer="97">RESET</text>
-<text x="5.08" y="78.74" size="1.778" layer="97">EEPROM</text>
+<text x="209.55" y="78.74" size="1.778" layer="97" font="vector">BOOT SELECT</text>
+<text x="341.63" y="78.74" size="1.778" layer="97" font="vector">LED ON BOARD</text>
+<text x="290.83" y="78.74" size="1.778" layer="97" font="vector">RESET</text>
+<text x="5.08" y="78.74" size="1.778" layer="97" font="vector">EEPROM</text>
 <wire x1="77.47" y1="256.54" x2="77.47" y2="162.56" width="0.1524" layer="97"/>
 <wire x1="77.47" y1="162.56" x2="77.47" y2="120.65" width="0.1524" layer="97"/>
 <wire x1="77.47" y1="120.65" x2="77.47" y2="81.28" width="0.1524" layer="97"/>
 <wire x1="77.47" y1="120.65" x2="3.81" y2="120.65" width="0.1524" layer="97"/>
 <wire x1="77.47" y1="162.56" x2="3.81" y2="162.56" width="0.1524" layer="97"/>
-<text x="5.08" y="118.11" size="1.778" layer="97">RTC</text>
-<text x="5.08" y="160.02" size="1.778" layer="97">12MHz CLOCK</text>
-<text x="5.08" y="254" size="1.778" layer="97">DECOUPLING</text>
+<text x="5.08" y="118.11" size="1.778" layer="97" font="vector">RTC</text>
+<text x="5.08" y="160.02" size="1.778" layer="97" font="vector">12MHz CLOCK</text>
+<text x="5.08" y="254" size="1.778" layer="97" font="vector">DECOUPLING</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -20931,8 +20931,8 @@ http://www.tag-connect.com</description>
 <instance part="GND1" gate="1" x="12.7" y="129.54"/>
 <instance part="+3V31" gate="G$1" x="12.7" y="152.4"/>
 <instance part="SW2" gate="G$1" x="312.42" y="45.72" smashed="yes">
-<attribute name="NAME" x="308.61" y="48.895" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="318.135" y="44.45" size="1.778" layer="96"/>
+<attribute name="NAME" x="308.61" y="48.895" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="318.135" y="44.45" size="1.778" layer="96" font="vector"/>
 <attribute name="OC_NEWARK" x="312.42" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="312.42" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="312.42" y="45.72" size="1.778" layer="96" display="off"/>
@@ -20985,15 +20985,15 @@ http://www.tag-connect.com</description>
 </instance>
 <instance part="GND17" gate="1" x="363.22" y="33.02"/>
 <instance part="R8" gate="G$1" x="172.72" y="35.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="170.18" y="37.8714" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="178.816" y="37.846" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="170.18" y="37.8714" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="178.816" y="37.846" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="OC_NEWARK" x="172.72" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="172.72" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="172.72" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="172.72" y="38.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="170.18" y="40.1574" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="179.07" y="40.132" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="170.18" y="40.1574" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="179.07" y="40.132" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="OC_NEWARK" x="172.72" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="172.72" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="172.72" y="38.1" size="1.778" layer="96" display="off"/>
@@ -21038,8 +21038,8 @@ http://www.tag-connect.com</description>
 <attribute name="MPN" x="25.4" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="T1" gate="G$1" x="185.42" y="63.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="186.055" y="60.325" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="186.055" y="58.42" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="186.055" y="60.325" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="186.055" y="58.42" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
 <instance part="R6" gate="G$1" x="152.4" y="40.64"/>
 <instance part="R5" gate="G$1" x="144.78" y="33.02" rot="R90"/>
@@ -21349,64 +21349,64 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="U2" gate="A" pin="TDO/SWO"/>
 <wire x1="134.62" y1="233.68" x2="127" y2="233.68" width="0.1524" layer="91"/>
-<label x="127" y="233.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="233.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="JTAG_TDI" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="TDI"/>
 <wire x1="134.62" y1="231.14" x2="127" y2="231.14" width="0.1524" layer="91"/>
-<label x="127" y="231.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="231.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="JTAG_TMS" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="TMS/SWDIO"/>
 <wire x1="134.62" y1="228.6" x2="127" y2="228.6" width="0.1524" layer="91"/>
-<label x="127" y="228.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="228.6" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="JTAG_TCK" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="TCK/SWDCLK"/>
 <wire x1="134.62" y1="223.52" x2="127" y2="223.52" width="0.1524" layer="91"/>
-<label x="127" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="223.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USB_D_P" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="P0[29]/USB_D+"/>
 <wire x1="134.62" y1="162.56" x2="127" y2="162.56" width="0.1524" layer="91"/>
-<label x="127" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="162.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="35.56" x2="165.1" y2="35.56" width="0.1524" layer="91"/>
-<label x="165.1" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="165.1" y="35.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USB_D_N" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="P0[30]/USB_D?"/>
 <wire x1="134.62" y1="160.02" x2="127" y2="160.02" width="0.1524" layer="91"/>
-<label x="127" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="160.02" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="38.1" x2="165.1" y2="38.1" width="0.1524" layer="91"/>
-<label x="165.1" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="165.1" y="38.1" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USB_V_BUS" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="P1[30]/VBUS/AD0[4]"/>
 <wire x1="134.62" y1="182.88" x2="127" y2="182.88" width="0.1524" layer="91"/>
-<label x="127" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="182.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
-<label x="137.16" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="137.16" y="40.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="40.64" x2="137.16" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="38.1" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
@@ -21415,7 +21415,7 @@ http://www.tag-connect.com</description>
 </net>
 <net name="ONBOARD_LED1" class="1">
 <segment>
-<label x="358.14" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="358.14" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="358.14" y1="66.04" x2="370.84" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="66.04" x2="370.84" y2="58.42" width="0.1524" layer="91"/>
@@ -21423,7 +21423,7 @@ http://www.tag-connect.com</description>
 <segment>
 <wire x1="325.12" y1="170.18" x2="317.5" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="P2[0]/PWM1[1]/TXD1"/>
-<label x="325.12" y="170.18" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="EEPROM_SDA" class="0">
@@ -21434,10 +21434,10 @@ http://www.tag-connect.com</description>
 <wire x1="76.2" y1="43.18" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
 <junction x="76.2" y="40.64"/>
 <wire x1="76.2" y1="40.64" x2="86.36" y2="40.64" width="0.1524" layer="91"/>
-<label x="86.36" y="40.64" size="1.27" layer="95" xref="yes"/>
+<label x="86.36" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="127" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="172.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U2" gate="A" pin="P0[27]/SDA0/USB_SDA"/>
 <wire x1="127" y1="172.72" x2="134.62" y2="172.72" width="0.1524" layer="91"/>
 </segment>
@@ -21450,10 +21450,10 @@ http://www.tag-connect.com</description>
 <wire x1="83.82" y1="33.02" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="33.02" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
 <junction x="83.82" y="33.02"/>
-<label x="86.36" y="33.02" size="1.27" layer="95" xref="yes"/>
+<label x="86.36" y="33.02" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="127" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="175.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U2" gate="A" pin="P0[28]/SCL0/USB_SCL"/>
 <wire x1="127" y1="175.26" x2="134.62" y2="175.26" width="0.1524" layer="91"/>
 </segment>
@@ -21464,12 +21464,12 @@ http://www.tag-connect.com</description>
 <pinref part="X1" gate="Y$1" pin="1"/>
 <wire x1="17.78" y1="106.68" x2="17.78" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="114.3" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
-<label x="17.78" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="17.78" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="RTCX1"/>
 <wire x1="134.62" y1="195.58" x2="127" y2="195.58" width="0.1524" layer="91"/>
-<label x="127" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="195.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RTCX2" class="0">
@@ -21478,22 +21478,22 @@ http://www.tag-connect.com</description>
 <pinref part="X1" gate="Y$1" pin="2"/>
 <wire x1="40.64" y1="106.68" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="114.3" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
-<label x="40.64" y="114.3" size="1.27" layer="95" xref="yes"/>
+<label x="40.64" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="RTCX2"/>
 <wire x1="134.62" y1="190.5" x2="127" y2="190.5" width="0.1524" layer="91"/>
-<label x="127" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="190.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="XTAL1"/>
 <wire x1="134.62" y1="180.34" x2="127" y2="180.34" width="0.1524" layer="91"/>
-<label x="127" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="180.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="66.04" y="142.24" size="1.27" layer="95" xref="yes"/>
+<label x="66.04" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="X2" gate="G$1" pin="OUT"/>
 <wire x1="58.42" y1="142.24" x2="66.04" y2="142.24" width="0.1524" layer="91"/>
 </segment>
@@ -21502,10 +21502,10 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="X3" gate="A" pin="VBAT+"/>
 <wire x1="60.96" y1="106.68" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
-<label x="60.96" y="109.22" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="60.96" y="109.22" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<label x="127" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="187.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U2" gate="A" pin="VBAT"/>
 <wire x1="127" y1="187.96" x2="134.62" y2="187.96" width="0.1524" layer="91"/>
 </segment>
@@ -21530,31 +21530,31 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="256.54" y1="43.18" x2="259.08" y2="43.18" width="0.1524" layer="91"/>
-<label x="259.08" y="43.18" size="1.27" layer="95" xref="yes"/>
+<label x="259.08" y="43.18" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="P2[12]/*EINT2/I2STX_WS"/>
 <wire x1="317.5" y1="109.22" x2="325.12" y2="109.22" width="0.1524" layer="91"/>
-<label x="325.12" y="109.22" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="BOOT_SELECT_P2_10" class="1">
 <segment>
-<label x="259.08" y="50.8" size="1.27" layer="95" xref="yes"/>
+<label x="259.08" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="256.54" y1="50.8" x2="259.08" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="P2[10]/*EINT0/NMI"/>
 <wire x1="317.5" y1="114.3" x2="325.12" y2="114.3" width="0.1524" layer="91"/>
-<label x="325.12" y="114.3" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="*RESET"/>
 <wire x1="134.62" y1="193.04" x2="127" y2="193.04" width="0.1524" layer="91"/>
-<label x="127" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="193.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SW2" gate="G$1" pin="1"/>
@@ -21563,7 +21563,7 @@ http://www.tag-connect.com</description>
 <wire x1="314.96" y1="58.42" x2="314.96" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="58.42" x2="320.04" y2="58.42" width="0.1524" layer="91"/>
 <junction x="314.96" y="58.42"/>
-<label x="320.04" y="58.42" size="1.27" layer="95" xref="yes"/>
+<label x="320.04" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$29" class="1">
@@ -21578,19 +21578,19 @@ http://www.tag-connect.com</description>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="363.22" y1="60.96" x2="363.22" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="60.96" x2="358.14" y2="60.96" width="0.1524" layer="91"/>
-<label x="358.14" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="358.14" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="325.12" y1="167.64" x2="317.5" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="P2[1]/PWM1[2]/RXD1"/>
-<label x="325.12" y="167.64" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="!JTAG_TRST" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="*TRST"/>
 <wire x1="134.62" y1="226.06" x2="127" y2="226.06" width="0.1524" layer="91"/>
-<label x="127" y="226.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="226.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="1">
@@ -21622,63 +21622,63 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="U2" gate="A" pin="P1[25]/MCOA1/MAT1[1]"/>
 <wire x1="134.62" y1="137.16" x2="127" y2="137.16" width="0.1524" layer="91"/>
-<label x="127" y="137.16" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
+<label x="127" y="137.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUTPUT2.3_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P1[23]/MCI1/PWM1[4]/MISO0"/>
 <wire x1="134.62" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
-<label x="127" y="142.24" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
+<label x="127" y="142.24" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUTPUT3.2_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P1[26]/MCOB1/PWM1[6]/CAP0[0]"/>
 <wire x1="134.62" y1="134.62" x2="127" y2="134.62" width="0.1524" layer="91"/>
-<label x="127" y="134.62" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
+<label x="127" y="134.62" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUTPUT2.4_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P1[22]/MCOB0/USB_PWRD/MAT1[0]"/>
 <wire x1="134.62" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
-<label x="127" y="144.78" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
+<label x="127" y="144.78" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUTPUT2.2_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P1[24]/MCI2/PWM1[5]/MOSI0"/>
 <wire x1="134.62" y1="139.7" x2="127" y2="139.7" width="0.1524" layer="91"/>
-<label x="127" y="139.7" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
+<label x="127" y="139.7" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="INPUT2.3_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P0[21]/RI1/RD1"/>
 <wire x1="317.5" y1="124.46" x2="325.12" y2="124.46" width="0.1524" layer="91"/>
-<label x="325.12" y="124.46" size="1.27" layer="95" ratio="10" xref="yes"/>
+<label x="325.12" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="INPUT2.1_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P0[19]/DSR1/SDA1"/>
 <wire x1="317.5" y1="129.54" x2="325.12" y2="129.54" width="0.1524" layer="91"/>
-<label x="325.12" y="129.54" size="1.27" layer="95" ratio="10" xref="yes"/>
+<label x="325.12" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="INPUT2.2_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P0[18]/DCD1/MOSI0/MOSI"/>
 <wire x1="317.5" y1="132.08" x2="325.12" y2="132.08" width="0.1524" layer="91"/>
-<label x="325.12" y="132.08" size="1.27" layer="95" ratio="10" xref="yes"/>
+<label x="325.12" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="INPUT2.4_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P0[22]/RTS1/TD1"/>
 <wire x1="317.5" y1="121.92" x2="325.12" y2="121.92" width="0.1524" layer="91"/>
-<label x="325.12" y="121.92" size="1.27" layer="95" ratio="10" xref="yes"/>
+<label x="325.12" y="121.92" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -21704,13 +21704,13 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="U2" gate="A" pin="P0[20]/DTR1/SCL1"/>
 <wire x1="325.12" y1="127" x2="317.5" y2="127" width="0.1524" layer="91"/>
-<label x="325.12" y="127" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="INPUT1.4_MCU" class="0">
 <segment>
 <wire x1="325.12" y1="134.62" x2="317.5" y2="134.62" width="0.1524" layer="91"/>
-<label x="325.12" y="134.62" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="A" pin="P0[17]/CTS1/MISO0/MISO"/>
 </segment>
 </net>
@@ -21718,13 +21718,13 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="U2" gate="A" pin="P0[16]/RXD1/SSEL0/SSEL"/>
 <wire x1="317.5" y1="139.7" x2="325.12" y2="139.7" width="0.1524" layer="91"/>
-<label x="325.12" y="139.7" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="INPUT1.3_MCU" class="0">
 <segment>
 <wire x1="317.5" y1="137.16" x2="325.12" y2="137.16" width="0.1524" layer="91"/>
-<label x="325.12" y="137.16" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="A" pin="P0[15]/TXD1/SCK0/SCK"/>
 </segment>
 </net>
@@ -21732,49 +21732,49 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="U2" gate="A" pin="P1[28]/MCOA2/PCAP1[0]/MAT0[0]"/>
 <wire x1="127" y1="124.46" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
-<label x="127" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="124.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUTPUT1.1_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P0[0]/RD1/TXD3/SDA1"/>
 <wire x1="127" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
-<label x="127" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="119.38" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUTPUT1.4_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P1[27]/CLKOUT/*USB_OVRCR/CAP0[1]"/>
 <wire x1="134.62" y1="127" x2="127" y2="127" width="0.1524" layer="91"/>
-<label x="127" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="127" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUTPUT1.2_MCU" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="P1[29]/MCOB2/PCAP1[1]/MAT0[1]"/>
 <wire x1="134.62" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
-<label x="127" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="INPUT1.1_MCU" class="0">
 <segment>
 <wire x1="317.5" y1="144.78" x2="325.12" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="P2[8]/TD2/TXD2"/>
-<label x="325.12" y="144.78" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ISP_RXDO" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="P0[3]/RXD0/AD0[6]"/>
 <wire x1="317.5" y1="231.14" x2="325.12" y2="231.14" width="0.1524" layer="91"/>
-<label x="325.12" y="231.14" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="231.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ISP_TXDO" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="P0[2]/TXD0/AD0[7]"/>
 <wire x1="317.5" y1="228.6" x2="325.12" y2="228.6" width="0.1524" layer="91"/>
-<label x="325.12" y="228.6" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="228.6" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -21793,12 +21793,12 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="T1" gate="G$1" pin="B"/>
 <wire x1="187.96" y1="63.5" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
-<label x="190.5" y="63.5" size="1.27" layer="95" xref="yes"/>
+<label x="190.5" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="P2[9]/USB_CONNECT/RXD2"/>
 <wire x1="317.5" y1="142.24" x2="325.12" y2="142.24" width="0.1524" layer="91"/>
-<label x="325.12" y="142.24" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$114" class="0">
@@ -21812,70 +21812,70 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="U2" gate="A" pin="P1[0]/ENET_TXD0"/>
 <wire x1="317.5" y1="220.98" x2="325.12" y2="220.98" width="0.1524" layer="91"/>
-<label x="325.12" y="220.98" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="220.98" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_TXD_1" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="P1[1]/ENET_TXD1"/>
 <wire x1="317.5" y1="218.44" x2="325.12" y2="218.44" width="0.1524" layer="91"/>
-<label x="325.12" y="218.44" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="218.44" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_TXD_EN" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="P1[4]/ENET_TX_EN"/>
 <wire x1="317.5" y1="215.9" x2="325.12" y2="215.9" width="0.1524" layer="91"/>
-<label x="325.12" y="215.9" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="215.9" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_CRS" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="P1[8]/ENET_CRS"/>
 <wire x1="317.5" y1="213.36" x2="325.12" y2="213.36" width="0.1524" layer="91"/>
-<label x="325.12" y="213.36" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="213.36" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_RXD_0" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="P1[9]/ENET_RXD0"/>
 <wire x1="317.5" y1="210.82" x2="325.12" y2="210.82" width="0.1524" layer="91"/>
-<label x="325.12" y="210.82" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="210.82" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_RXD_1" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="P1[10]/ENET_RXD1"/>
 <wire x1="317.5" y1="208.28" x2="325.12" y2="208.28" width="0.1524" layer="91"/>
-<label x="325.12" y="208.28" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="208.28" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_RX_ER" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="P1[14]/ENET_RX_ER"/>
 <wire x1="317.5" y1="205.74" x2="325.12" y2="205.74" width="0.1524" layer="91"/>
-<label x="325.12" y="205.74" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="205.74" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_X1" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="P1[15]/ENET_REF_CLK"/>
 <wire x1="317.5" y1="203.2" x2="325.12" y2="203.2" width="0.1524" layer="91"/>
-<label x="325.12" y="203.2" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="203.2" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_MDC" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="P1[16]/ENET_MDC"/>
 <wire x1="317.5" y1="200.66" x2="325.12" y2="200.66" width="0.1524" layer="91"/>
-<label x="325.12" y="200.66" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="200.66" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_MDIO" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="P1[17]/ENET_MDIO"/>
 <wire x1="317.5" y1="198.12" x2="325.12" y2="198.12" width="0.1524" layer="91"/>
-<label x="325.12" y="198.12" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="198.12" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -21885,9 +21885,9 @@ http://www.tag-connect.com</description>
 <plain>
 <wire x1="3.81" y1="193.04" x2="383.54" y2="193.04" width="0.1524" layer="97"/>
 <wire x1="3.81" y1="113.03" x2="383.54" y2="113.03" width="0.1524" layer="97"/>
-<text x="5.08" y="190.5" size="1.778" layer="97">+5V</text>
-<text x="5.08" y="110.49" size="1.778" layer="97">+3V3</text>
-<text x="5.08" y="254" size="1.778" layer="97">+24V</text>
+<text x="5.08" y="190.5" size="1.778" layer="97" font="vector">+5V</text>
+<text x="5.08" y="110.49" size="1.778" layer="97" font="vector">+3V3</text>
+<text x="5.08" y="254" size="1.778" layer="97" font="vector">+24V</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -22127,7 +22127,7 @@ http://www.tag-connect.com</description>
 <wire x1="71.12" y1="243.84" x2="63.5" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="243.84" x2="63.5" y2="231.14" width="0.1524" layer="91"/>
 <junction x="63.5" y="231.14"/>
-<label x="48.26" y="231.14" size="1.27" layer="95"/>
+<label x="48.26" y="231.14" size="1.27" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -22511,7 +22511,7 @@ http://www.tag-connect.com</description>
 <sheet>
 <description>INPUT</description>
 <plain>
-<text x="22.86" y="247.65" size="1.778" layer="97">DRIVE INFO</text>
+<text x="22.86" y="247.65" size="1.778" layer="97" font="vector">DRIVE INFO</text>
 </plain>
 <instances>
 <instance part="P+6" gate="1" x="50.8" y="238.76"/>
@@ -23142,16 +23142,16 @@ http://www.tag-connect.com</description>
 <wire x1="109.22" y1="129.54" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
 <junction x="104.14" y="129.54"/>
 <wire x1="104.14" y1="129.54" x2="104.14" y2="127" width="0.1524" layer="91"/>
-<label x="109.22" y="129.54" size="1.27" layer="95" xref="yes"/>
+<label x="109.22" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="284.48" y1="243.84" x2="353.06" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="LED10" gate="G$1" pin="A"/>
 <wire x1="284.48" y1="226.06" x2="284.48" y2="243.84" width="0.1524" layer="91"/>
-<label x="353.06" y="243.84" size="1.27" layer="95" xref="yes"/>
+<label x="353.06" y="243.84" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="302.26" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="302.26" y="165.1" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U5" gate="A" pin="B"/>
 <wire x1="302.26" y1="165.1" x2="307.34" y2="165.1" width="0.1524" layer="91"/>
 </segment>
@@ -23203,7 +23203,7 @@ http://www.tag-connect.com</description>
 <pinref part="LED8" gate="G$1" pin="A"/>
 <wire x1="264.16" y1="226.06" x2="264.16" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="248.92" x2="353.06" y2="248.92" width="0.1524" layer="91"/>
-<label x="353.06" y="248.92" size="1.27" layer="95" xref="yes"/>
+<label x="353.06" y="248.92" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -23306,16 +23306,16 @@ http://www.tag-connect.com</description>
 <wire x1="243.84" y1="132.08" x2="248.92" y2="132.08" width="0.1524" layer="91"/>
 <junction x="243.84" y="132.08"/>
 <wire x1="243.84" y1="132.08" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
-<label x="248.92" y="132.08" size="1.27" layer="95" xref="yes"/>
+<label x="248.92" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="LED14" gate="G$1" pin="A"/>
 <wire x1="325.12" y1="226.06" x2="325.12" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="233.68" x2="353.06" y2="233.68" width="0.1524" layer="91"/>
-<label x="353.06" y="233.68" size="1.27" layer="95" xref="yes"/>
+<label x="353.06" y="233.68" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="304.8" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="304.8" y="106.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U6" gate="A" pin="B"/>
 <wire x1="304.8" y1="106.68" x2="307.34" y2="106.68" width="0.1524" layer="91"/>
 </segment>
@@ -23328,16 +23328,16 @@ http://www.tag-connect.com</description>
 <wire x1="104.14" y1="91.44" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
 <junction x="104.14" y="91.44"/>
 <wire x1="104.14" y1="91.44" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
-<label x="109.22" y="91.44" size="1.27" layer="95" xref="yes"/>
+<label x="109.22" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="353.06" y1="241.3" x2="294.64" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="LED11" gate="G$1" pin="A"/>
 <wire x1="294.64" y1="241.3" x2="294.64" y2="226.06" width="0.1524" layer="91"/>
-<label x="353.06" y="241.3" size="1.27" layer="95" xref="yes"/>
+<label x="353.06" y="241.3" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="302.26" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="302.26" y="160.02" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U5" gate="A" pin="D"/>
 <wire x1="302.26" y1="160.02" x2="307.34" y2="160.02" width="0.1524" layer="91"/>
 </segment>
@@ -23350,28 +23350,28 @@ http://www.tag-connect.com</description>
 <wire x1="104.14" y1="167.64" x2="104.14" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="167.64" x2="109.22" y2="167.64" width="0.1524" layer="91"/>
 <junction x="104.14" y="167.64"/>
-<label x="109.22" y="167.64" size="1.27" layer="95" xref="yes"/>
+<label x="109.22" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="353.06" y1="246.38" x2="274.32" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="LED9" gate="G$1" pin="A"/>
 <wire x1="274.32" y1="246.38" x2="274.32" y2="226.06" width="0.1524" layer="91"/>
-<label x="353.06" y="246.38" size="1.27" layer="95" xref="yes"/>
+<label x="353.06" y="246.38" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="302.26" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="302.26" y="167.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U5" gate="A" pin="A"/>
 <wire x1="302.26" y1="167.64" x2="307.34" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INPUT3.1" class="0">
 <segment>
-<label x="302.26" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="302.26" y="154.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U5" gate="A" pin="F"/>
 <wire x1="302.26" y1="154.94" x2="307.34" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="182.88" y="226.06" size="1.27" layer="95" xref="yes"/>
+<label x="182.88" y="226.06" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="182.88" y1="226.06" x2="149.86" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="223.52" x2="149.86" y2="226.06" width="0.1524" layer="91"/>
@@ -23382,28 +23382,28 @@ http://www.tag-connect.com</description>
 </net>
 <net name="INPUT2.4_MCU" class="0">
 <segment>
-<label x="347.98" y="172.72" size="1.27" layer="95" xref="yes"/>
+<label x="347.98" y="172.72" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="A" pin="G=A"/>
 <wire x1="342.9" y1="172.72" x2="347.98" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INPUT2.3_MCU" class="0">
 <segment>
-<label x="347.98" y="170.18" size="1.27" layer="95" xref="yes"/>
+<label x="347.98" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="A" pin="H=B"/>
 <wire x1="347.98" y1="170.18" x2="342.9" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INPUT2.1_MCU" class="0">
 <segment>
-<label x="347.98" y="162.56" size="1.27" layer="95" xref="yes"/>
+<label x="347.98" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="A" pin="K=E"/>
 <wire x1="342.9" y1="162.56" x2="347.98" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INPUT2.2_MCU" class="0">
 <segment>
-<label x="347.98" y="165.1" size="1.27" layer="95" xref="yes"/>
+<label x="347.98" y="165.1" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="A" pin="J=D"/>
 <wire x1="342.9" y1="165.1" x2="347.98" y2="165.1" width="0.1524" layer="91"/>
 </segment>
@@ -23469,7 +23469,7 @@ http://www.tag-connect.com</description>
 </net>
 <net name="INPUT3.1_MCU" class="0">
 <segment>
-<label x="347.98" y="160.02" size="1.27" layer="95" xref="yes"/>
+<label x="347.98" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U5" gate="A" pin="L=F"/>
 <wire x1="342.9" y1="160.02" x2="347.98" y2="160.02" width="0.1524" layer="91"/>
 </segment>
@@ -23526,16 +23526,16 @@ http://www.tag-connect.com</description>
 <wire x1="243.84" y1="170.18" x2="248.92" y2="170.18" width="0.1524" layer="91"/>
 <junction x="243.84" y="170.18"/>
 <wire x1="243.84" y1="170.18" x2="243.84" y2="167.64" width="0.1524" layer="91"/>
-<label x="248.92" y="170.18" size="1.27" layer="95" xref="yes"/>
+<label x="248.92" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="LED13" gate="G$1" pin="A"/>
 <wire x1="314.96" y1="226.06" x2="314.96" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="236.22" x2="353.06" y2="236.22" width="0.1524" layer="91"/>
-<label x="353.06" y="236.22" size="1.27" layer="95" xref="yes"/>
+<label x="353.06" y="236.22" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="304.8" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="304.8" y="109.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U6" gate="A" pin="A"/>
 <wire x1="304.8" y1="109.22" x2="307.34" y2="109.22" width="0.1524" layer="91"/>
 </segment>
@@ -23548,30 +23548,30 @@ http://www.tag-connect.com</description>
 <wire x1="104.14" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
 <junction x="104.14" y="55.88"/>
 <wire x1="104.14" y1="55.88" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
-<label x="109.22" y="55.88" size="1.27" layer="95" xref="yes"/>
+<label x="109.22" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="304.8" y1="238.76" x2="353.06" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="LED12" gate="G$1" pin="A"/>
 <wire x1="304.8" y1="226.06" x2="304.8" y2="238.76" width="0.1524" layer="91"/>
-<label x="353.06" y="238.76" size="1.27" layer="95" xref="yes"/>
+<label x="353.06" y="238.76" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="302.26" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="302.26" y="157.48" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U5" gate="A" pin="E"/>
 <wire x1="302.26" y1="157.48" x2="307.34" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INPUT1.3_MCU" class="0">
 <segment>
-<label x="345.44" y="111.76" size="1.27" layer="95" xref="yes"/>
+<label x="345.44" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U6" gate="A" pin="H=B"/>
 <wire x1="342.9" y1="111.76" x2="345.44" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INPUT1.4_MCU" class="0">
 <segment>
-<label x="345.44" y="114.3" size="1.27" layer="95" xref="yes"/>
+<label x="345.44" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U6" gate="A" pin="G=A"/>
 <wire x1="342.9" y1="114.3" x2="345.44" y2="114.3" width="0.1524" layer="91"/>
 </segment>
@@ -23607,10 +23607,10 @@ http://www.tag-connect.com</description>
 <wire x1="243.84" y1="93.98" x2="248.92" y2="93.98" width="0.1524" layer="91"/>
 <junction x="243.84" y="93.98"/>
 <wire x1="243.84" y1="93.98" x2="243.84" y2="91.44" width="0.1524" layer="91"/>
-<label x="248.92" y="93.98" size="1.27" layer="95" xref="yes"/>
+<label x="248.92" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="304.8" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="304.8" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U6" gate="A" pin="E"/>
 <wire x1="307.34" y1="99.06" x2="304.8" y2="99.06" width="0.1524" layer="91"/>
 </segment>
@@ -23618,12 +23618,12 @@ http://www.tag-connect.com</description>
 <pinref part="LED15" gate="G$1" pin="A"/>
 <wire x1="335.28" y1="226.06" x2="335.28" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="231.14" x2="353.06" y2="231.14" width="0.1524" layer="91"/>
-<label x="353.06" y="231.14" size="1.27" layer="95" xref="yes"/>
+<label x="353.06" y="231.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="INPUT1.2_MCU" class="0">
 <segment>
-<label x="345.44" y="104.14" size="1.27" layer="95" xref="yes"/>
+<label x="345.44" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U6" gate="A" pin="K=E"/>
 <wire x1="345.44" y1="104.14" x2="342.9" y2="104.14" width="0.1524" layer="91"/>
 </segment>
@@ -23680,18 +23680,18 @@ http://www.tag-connect.com</description>
 <wire x1="243.84" y1="58.42" x2="248.92" y2="58.42" width="0.1524" layer="91"/>
 <junction x="243.84" y="58.42"/>
 <wire x1="243.84" y1="58.42" x2="243.84" y2="55.88" width="0.1524" layer="91"/>
-<label x="248.92" y="58.42" size="1.27" layer="95" xref="yes"/>
+<label x="248.92" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="LED16" gate="G$1" pin="A"/>
 <wire x1="345.44" y1="226.06" x2="345.44" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="228.6" x2="353.06" y2="228.6" width="0.1524" layer="91"/>
-<label x="353.06" y="228.6" size="1.27" layer="95" xref="yes"/>
+<label x="353.06" y="228.6" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U6" gate="A" pin="D"/>
 <wire x1="304.8" y1="101.6" x2="307.34" y2="101.6" width="0.1524" layer="91"/>
-<label x="304.8" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="304.8" y="101.6" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$90" class="1">
@@ -23705,7 +23705,7 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="U6" gate="A" pin="J=D"/>
 <wire x1="342.9" y1="106.68" x2="345.44" y2="106.68" width="0.1524" layer="91"/>
-<label x="345.44" y="106.68" size="1.27" layer="95" xref="yes"/>
+<label x="345.44" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -24394,9 +24394,9 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="J6" gate="-2" pin="S"/>
 <wire x1="27.94" y1="172.72" x2="33.02" y2="172.72" width="0.1524" layer="91"/>
-<label x="33.02" y="172.72" size="1.27" layer="95" xref="yes"/>
-<label x="33.02" y="172.72" size="1.27" layer="95" xref="yes"/>
-<label x="33.02" y="172.72" size="1.27" layer="95" xref="yes"/>
+<label x="33.02" y="172.72" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="33.02" y="172.72" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="33.02" y="172.72" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="T3" gate="G$1" pin="D"/>
@@ -24408,7 +24408,7 @@ http://www.tag-connect.com</description>
 <wire x1="205.74" y1="220.98" x2="205.74" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="223.52" x2="198.12" y2="223.52" width="0.1524" layer="91"/>
 <junction x="205.74" y="223.52"/>
-<label x="198.12" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="198.12" y="223.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R63" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -24416,7 +24416,7 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="J6" gate="-3" pin="S"/>
 <wire x1="27.94" y1="167.64" x2="33.02" y2="167.64" width="0.1524" layer="91"/>
-<label x="33.02" y="167.64" size="1.27" layer="95" xref="yes"/>
+<label x="33.02" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="T4" gate="G$1" pin="D"/>
@@ -24428,7 +24428,7 @@ http://www.tag-connect.com</description>
 <wire x1="205.74" y1="165.1" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="167.64" x2="198.12" y2="167.64" width="0.1524" layer="91"/>
 <junction x="205.74" y="167.64"/>
-<label x="198.12" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="198.12" y="167.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R64" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -24436,7 +24436,7 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="J6" gate="-4" pin="S"/>
 <wire x1="27.94" y1="162.56" x2="33.02" y2="162.56" width="0.1524" layer="91"/>
-<label x="33.02" y="162.56" size="1.27" layer="95" xref="yes"/>
+<label x="33.02" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="T5" gate="G$1" pin="D"/>
@@ -24448,7 +24448,7 @@ http://www.tag-connect.com</description>
 <wire x1="205.74" y1="106.68" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="109.22" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
 <junction x="205.74" y="109.22"/>
-<label x="198.12" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="198.12" y="109.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R65" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -24456,28 +24456,28 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="R88" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="175.26" x2="325.12" y2="175.26" width="0.1524" layer="91"/>
-<label x="330.2" y="175.26" size="1.27" layer="95" xref="yes"/>
+<label x="330.2" y="175.26" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="OUTPUT1.4_MCU" class="0">
 <segment>
 <pinref part="R90" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="53.34" x2="325.12" y2="53.34" width="0.1524" layer="91"/>
-<label x="330.2" y="53.34" size="1.27" layer="95" xref="yes"/>
+<label x="330.2" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="OUTPUT1.3_MCU" class="0">
 <segment>
 <pinref part="R89" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="116.84" x2="325.12" y2="116.84" width="0.1524" layer="91"/>
-<label x="330.2" y="116.84" size="1.27" layer="95" xref="yes"/>
+<label x="330.2" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="OUTPUT1.1_MCU" class="0">
 <segment>
 <pinref part="R87" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="231.14" x2="330.2" y2="231.14" width="0.1524" layer="91"/>
-<label x="330.2" y="231.14" size="1.27" layer="95" xref="yes"/>
+<label x="330.2" y="231.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="OUTPUT1.4" class="0">
@@ -24491,13 +24491,13 @@ http://www.tag-connect.com</description>
 <wire x1="205.74" y1="43.18" x2="205.74" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="45.72" x2="198.12" y2="45.72" width="0.1524" layer="91"/>
 <junction x="205.74" y="45.72"/>
-<label x="198.12" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="198.12" y="45.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R66" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="J6" gate="-5" pin="S"/>
 <wire x1="27.94" y1="157.48" x2="33.02" y2="157.48" width="0.1524" layer="91"/>
-<label x="33.02" y="157.48" size="1.27" layer="95" xref="yes"/>
+<label x="33.02" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -25120,7 +25120,7 @@ http://www.tag-connect.com</description>
 </net>
 <net name="OUTPUT2.2" class="0">
 <segment>
-<label x="195.58" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="195.58" y="167.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="T14" gate="G$1" pin="D"/>
 <wire x1="220.98" y1="170.18" x2="220.98" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="167.64" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
@@ -25134,13 +25134,13 @@ http://www.tag-connect.com</description>
 </segment>
 <segment>
 <wire x1="27.94" y1="167.64" x2="33.02" y2="167.64" width="0.1524" layer="91"/>
-<label x="33.02" y="167.64" size="1.27" layer="95" xref="yes"/>
+<label x="33.02" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J7" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="OUTPUT2.3" class="0">
 <segment>
-<label x="195.58" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="195.58" y="109.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="T15" gate="G$1" pin="D"/>
 <wire x1="220.98" y1="111.76" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="109.22" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
@@ -25154,7 +25154,7 @@ http://www.tag-connect.com</description>
 </segment>
 <segment>
 <wire x1="33.02" y1="162.56" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
-<label x="33.02" y="162.56" size="1.27" layer="95" xref="yes"/>
+<label x="33.02" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J7" gate="-4" pin="S"/>
 </segment>
 </net>
@@ -25169,7 +25169,7 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="R118" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="231.14" x2="327.66" y2="231.14" width="0.1524" layer="91"/>
-<label x="327.66" y="231.14" size="1.27" layer="95" xref="yes"/>
+<label x="327.66" y="231.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$91" class="0">
@@ -25197,21 +25197,21 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="R121" gate="G$1" pin="2"/>
 <wire x1="327.66" y1="53.34" x2="325.12" y2="53.34" width="0.1524" layer="91"/>
-<label x="327.66" y="53.34" size="1.27" layer="95" xref="yes"/>
+<label x="327.66" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="OUTPUT2.3_MCU" class="0">
 <segment>
 <pinref part="R120" gate="G$1" pin="2"/>
 <wire x1="327.66" y1="116.84" x2="325.12" y2="116.84" width="0.1524" layer="91"/>
-<label x="327.66" y="116.84" size="1.27" layer="95" xref="yes"/>
+<label x="327.66" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="OUTPUT2.2_MCU" class="0">
 <segment>
 <pinref part="R119" gate="G$1" pin="2"/>
 <wire x1="327.66" y1="175.26" x2="325.12" y2="175.26" width="0.1524" layer="91"/>
-<label x="327.66" y="175.26" size="1.27" layer="95" xref="yes"/>
+<label x="327.66" y="175.26" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$94" class="1">
@@ -25246,7 +25246,7 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="R93" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
-<label x="137.16" y="45.72" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<label x="137.16" y="45.72" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -25357,11 +25357,11 @@ http://www.tag-connect.com</description>
 <net name="OUTPUT2.1" class="0">
 <segment>
 <wire x1="33.02" y1="172.72" x2="27.94" y2="172.72" width="0.1524" layer="91"/>
-<label x="33.02" y="172.72" size="1.27" layer="95" xref="yes"/>
+<label x="33.02" y="172.72" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J7" gate="-2" pin="S"/>
 </segment>
 <segment>
-<label x="195.58" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="195.58" y="223.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="T13" gate="G$1" pin="D"/>
 <wire x1="220.98" y1="226.06" x2="220.98" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="223.52" x2="220.98" y2="220.98" width="0.1524" layer="91"/>
@@ -25376,7 +25376,7 @@ http://www.tag-connect.com</description>
 </net>
 <net name="OUTPUT2.4" class="0">
 <segment>
-<label x="195.58" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="195.58" y="45.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="T16" gate="G$1" pin="D"/>
 <wire x1="220.98" y1="48.26" x2="220.98" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="45.72" x2="220.98" y2="43.18" width="0.1524" layer="91"/>
@@ -25390,7 +25390,7 @@ http://www.tag-connect.com</description>
 </segment>
 <segment>
 <wire x1="33.02" y1="157.48" x2="27.94" y2="157.48" width="0.1524" layer="91"/>
-<label x="33.02" y="157.48" size="1.27" layer="95" xref="yes"/>
+<label x="33.02" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J7" gate="-5" pin="S"/>
 </segment>
 </net>
@@ -25399,9 +25399,9 @@ http://www.tag-connect.com</description>
 <sheet>
 <description>Programming interface</description>
 <plain>
-<text x="193.04" y="241.3" size="2.54" layer="97">JTAG/SWD</text>
-<text x="221.742" y="215.646" size="1.27" layer="97">Pin 7 is a key</text>
-<text x="15.24" y="241.3" size="2.54" layer="97">ISP</text>
+<text x="193.04" y="241.3" size="2.54" layer="97" font="vector">JTAG/SWD</text>
+<text x="221.742" y="215.646" size="1.27" layer="97" font="vector">Pin 7 is a key</text>
+<text x="15.24" y="241.3" size="2.54" layer="97" font="vector">ISP</text>
 <wire x1="182.88" y1="256.54" x2="182.88" y2="177.8" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="177.8" x2="182.88" y2="177.8" width="0.1524" layer="94"/>
 <wire x1="182.88" y1="177.8" x2="381" y2="177.8" width="0.1524" layer="94"/>
@@ -25500,24 +25500,24 @@ http://www.tag-connect.com</description>
 </net>
 <net name="ISP_RXDO" class="1">
 <segment>
-<label x="73.66" y="220.98" size="1.27" layer="95" xref="yes"/>
+<label x="73.66" y="220.98" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J9" gate="-4" pin="S"/>
 <wire x1="66.04" y1="220.98" x2="73.66" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TC1" gate="A" pin="4"/>
 <wire x1="149.86" y1="220.98" x2="154.94" y2="220.98" width="0.1524" layer="91"/>
-<label x="154.94" y="220.98" size="1.27" layer="95" xref="yes"/>
+<label x="154.94" y="220.98" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ISP_TXDO" class="1">
 <segment>
-<label x="30.48" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="30.48" y="220.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J9" gate="-3" pin="S"/>
 <wire x1="35.56" y1="220.98" x2="30.48" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="129.54" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="129.54" y="220.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="TC1" gate="A" pin="3"/>
 <wire x1="129.54" y1="220.98" x2="134.62" y2="220.98" width="0.1524" layer="91"/>
 </segment>
@@ -25550,48 +25550,48 @@ http://www.tag-connect.com</description>
 </net>
 <net name="JTAG_TDI" class="1">
 <segment>
-<label x="279.4" y="213.36" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<label x="279.4" y="213.36" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <wire x1="279.4" y1="213.36" x2="271.78" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="J10" gate="-8" pin="S"/>
 </segment>
 <segment>
-<label x="337.82" y="213.36" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<label x="337.82" y="213.36" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <wire x1="337.82" y1="213.36" x2="330.2" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="TC2" gate="A" pin="8"/>
 </segment>
 </net>
 <net name="JTAG_TCK" class="1">
 <segment>
-<label x="279.4" y="218.44" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<label x="279.4" y="218.44" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <wire x1="279.4" y1="218.44" x2="271.78" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="J10" gate="-4" pin="S"/>
 </segment>
 <segment>
-<label x="337.82" y="218.44" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<label x="337.82" y="218.44" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <wire x1="337.82" y1="218.44" x2="330.2" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="TC2" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="JTAG_TDO" class="1">
 <segment>
-<label x="279.4" y="215.9" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<label x="279.4" y="215.9" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J10" gate="-6" pin="S"/>
 <wire x1="271.78" y1="215.9" x2="279.4" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="337.82" y="215.9" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<label x="337.82" y="215.9" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <wire x1="330.2" y1="215.9" x2="337.82" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="TC2" gate="A" pin="6"/>
 </segment>
 </net>
 <net name="JTAG_TMS" class="1">
 <segment>
-<label x="279.4" y="220.98" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<label x="279.4" y="220.98" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J10" gate="-2" pin="S"/>
 <wire x1="271.78" y1="220.98" x2="279.4" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="337.82" y="220.98" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<label x="337.82" y="220.98" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <wire x1="330.2" y1="220.98" x2="337.82" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="TC2" gate="A" pin="2"/>
 </segment>
@@ -25599,23 +25599,23 @@ http://www.tag-connect.com</description>
 <net name="!RESET" class="0">
 <segment>
 <pinref part="J10" gate="-10" pin="S"/>
-<label x="279.4" y="210.82" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<label x="279.4" y="210.82" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <wire x1="271.78" y1="210.82" x2="279.4" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="337.82" y="210.82" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<label x="337.82" y="210.82" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <wire x1="330.2" y1="210.82" x2="337.82" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="TC2" gate="A" pin="10"/>
 </segment>
 <segment>
 <pinref part="R123" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="203.2" x2="86.36" y2="203.2" width="0.1524" layer="91"/>
-<label x="86.36" y="203.2" size="1.27" layer="95" xref="yes"/>
+<label x="86.36" y="203.2" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="!ISP_BOOT" class="0">
 <segment>
-<label x="73.66" y="223.52" size="1.27" layer="95" xref="yes"/>
+<label x="73.66" y="223.52" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J9" gate="-2" pin="S"/>
 <wire x1="66.04" y1="223.52" x2="71.12" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="R122" gate="G$1" pin="2"/>
@@ -25627,21 +25627,21 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="TC1" gate="A" pin="2"/>
 <wire x1="149.86" y1="223.52" x2="154.94" y2="223.52" width="0.1524" layer="91"/>
-<label x="154.94" y="223.52" size="1.27" layer="95" xref="yes"/>
+<label x="154.94" y="223.52" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="BOOT_SELECT_P2_10" class="1">
 <segment>
 <pinref part="R122" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="210.82" x2="86.36" y2="210.82" width="0.1524" layer="91"/>
-<label x="86.36" y="210.82" size="1.27" layer="95" xref="yes"/>
+<label x="86.36" y="210.82" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="!ISP_RST" class="0">
 <segment>
 <pinref part="J9" gate="-6" pin="S"/>
 <wire x1="66.04" y1="218.44" x2="68.58" y2="218.44" width="0.1524" layer="91"/>
-<label x="73.66" y="218.44" size="1.27" layer="95" xref="yes"/>
+<label x="73.66" y="218.44" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R123" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="218.44" x2="73.66" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="203.2" x2="73.66" y2="203.2" width="0.1524" layer="91"/>
@@ -25651,7 +25651,7 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="TC1" gate="A" pin="6"/>
 <wire x1="149.86" y1="218.44" x2="154.94" y2="218.44" width="0.1524" layer="91"/>
-<label x="154.94" y="218.44" size="1.27" layer="95" xref="yes"/>
+<label x="154.94" y="218.44" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -25663,8 +25663,8 @@ http://www.tag-connect.com</description>
 <wire x1="165.1" y1="104.14" x2="3.81" y2="104.14" width="0.1524" layer="97"/>
 <wire x1="165.1" y1="104.14" x2="254" y2="104.14" width="0.1524" layer="97"/>
 <wire x1="254" y1="104.14" x2="383.54" y2="104.14" width="0.1524" layer="97"/>
-<text x="7.62" y="251.46" size="1.778" layer="97">ETHERNET INPUT</text>
-<text x="167.64" y="251.46" size="1.778" layer="97">ETHERNETPHI</text>
+<text x="7.62" y="251.46" size="1.778" layer="97" font="vector">ETHERNET INPUT</text>
+<text x="167.64" y="251.46" size="1.778" layer="97" font="vector">ETHERNETPHI</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0"/>
@@ -26030,12 +26030,12 @@ http://www.tag-connect.com</description>
 <wire x1="99.06" y1="241.3" x2="137.16" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="187.96" x2="99.06" y2="241.3" width="0.1524" layer="91"/>
 <junction x="99.06" y="241.3"/>
-<label x="137.16" y="241.3" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="241.3" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U7" gate="A" pin="TD+"/>
 <wire x1="233.68" y1="187.96" x2="226.06" y2="187.96" width="0.1524" layer="91"/>
-<label x="226.06" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="226.06" y="187.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_TX_N" class="1">
@@ -26046,12 +26046,12 @@ http://www.tag-connect.com</description>
 <wire x1="106.68" y1="226.06" x2="137.16" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="187.96" x2="106.68" y2="226.06" width="0.1524" layer="91"/>
 <junction x="106.68" y="226.06"/>
-<label x="137.16" y="226.06" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="226.06" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U7" gate="A" pin="TD-"/>
 <wire x1="233.68" y1="190.5" x2="226.06" y2="190.5" width="0.1524" layer="91"/>
-<label x="226.06" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="226.06" y="190.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_RX_P" class="1">
@@ -26062,19 +26062,19 @@ http://www.tag-connect.com</description>
 <wire x1="116.84" y1="220.98" x2="137.16" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="187.96" x2="116.84" y2="220.98" width="0.1524" layer="91"/>
 <junction x="116.84" y="220.98"/>
-<label x="137.16" y="220.98" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="220.98" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U7" gate="A" pin="RD+"/>
 <wire x1="233.68" y1="195.58" x2="226.06" y2="195.58" width="0.1524" layer="91"/>
-<label x="226.06" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="226.06" y="195.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_RX_N" class="1">
 <segment>
 <pinref part="J12" gate="G$1" pin="RD-"/>
 <wire x1="53.34" y1="205.74" x2="124.46" y2="205.74" width="0.1524" layer="91"/>
-<label x="137.16" y="205.74" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="205.74" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R129" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="205.74" x2="137.16" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="187.96" x2="124.46" y2="205.74" width="0.1524" layer="91"/>
@@ -26083,7 +26083,7 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="U7" gate="A" pin="RD-"/>
 <wire x1="233.68" y1="198.12" x2="226.06" y2="198.12" width="0.1524" layer="91"/>
-<label x="226.06" y="198.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="226.06" y="198.12" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$113" class="1">
@@ -26112,17 +26112,17 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="U7" gate="A" pin="PFBIN1"/>
 <wire x1="233.68" y1="185.42" x2="226.06" y2="185.42" width="0.1524" layer="91"/>
-<label x="226.06" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="226.06" y="185.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U7" gate="A" pin="PFBIN2"/>
 <wire x1="335.28" y1="195.58" x2="337.82" y2="195.58" width="0.1524" layer="91"/>
-<label x="337.82" y="195.58" size="1.27" layer="95" xref="yes"/>
+<label x="337.82" y="195.58" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U7" gate="A" pin="PFBOUT"/>
 <wire x1="233.68" y1="177.8" x2="226.06" y2="177.8" width="0.1524" layer="91"/>
-<label x="226.06" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="226.06" y="177.8" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C29" gate="G$1" pin="1"/>
@@ -26137,7 +26137,7 @@ http://www.tag-connect.com</description>
 <pinref part="C26" gate="G$1" pin="+"/>
 <wire x1="193.04" y1="139.7" x2="193.04" y2="142.24" width="0.1524" layer="91"/>
 <junction x="193.04" y="142.24"/>
-<label x="187.96" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="142.24" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="C28" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="142.24" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
 <junction x="213.36" y="142.24"/>
@@ -26147,21 +26147,21 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="U7" gate="A" pin="TX_EN"/>
 <wire x1="233.68" y1="218.44" x2="226.06" y2="218.44" width="0.1524" layer="91"/>
-<label x="226.06" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="226.06" y="218.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_RX_ER" class="1">
 <segment>
 <pinref part="U7" gate="A" pin="RX_ER/MDIX_EN"/>
 <wire x1="335.28" y1="205.74" x2="337.82" y2="205.74" width="0.1524" layer="91"/>
-<label x="337.82" y="205.74" size="1.27" layer="95" xref="yes"/>
+<label x="337.82" y="205.74" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_CRS" class="1">
 <segment>
 <pinref part="U7" gate="A" pin="CRS/CRS_DV/LED_CFG"/>
 <wire x1="335.28" y1="203.2" x2="337.82" y2="203.2" width="0.1524" layer="91"/>
-<label x="337.82" y="203.2" size="1.27" layer="95" xref="yes"/>
+<label x="337.82" y="203.2" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="MII_MODE" class="1">
@@ -26176,85 +26176,85 @@ http://www.tag-connect.com</description>
 <segment>
 <pinref part="U7" gate="A" pin="LED_LINK/AN0"/>
 <wire x1="335.28" y1="175.26" x2="337.82" y2="175.26" width="0.1524" layer="91"/>
-<label x="337.82" y="175.26" size="1.27" layer="95" xref="yes"/>
+<label x="337.82" y="175.26" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J12" gate="G$1" pin="L2"/>
 <wire x1="53.34" y1="180.34" x2="58.42" y2="180.34" width="0.1524" layer="91"/>
-<label x="58.42" y="180.34" size="1.27" layer="95" xref="yes"/>
+<label x="58.42" y="180.34" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="L1_2" class="1">
 <segment>
 <pinref part="U7" gate="A" pin="LED_SPEED/AN1"/>
 <wire x1="335.28" y1="172.72" x2="337.82" y2="172.72" width="0.1524" layer="91"/>
-<label x="337.82" y="172.72" size="1.27" layer="95" xref="yes"/>
+<label x="337.82" y="172.72" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J12" gate="G$1" pin="L4"/>
 <wire x1="53.34" y1="170.18" x2="58.42" y2="170.18" width="0.1524" layer="91"/>
-<label x="58.42" y="170.18" size="1.27" layer="95" xref="yes"/>
+<label x="58.42" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_X1" class="1">
 <segment>
 <pinref part="X4" gate="G$1" pin="OUT"/>
 <wire x1="358.14" y1="134.62" x2="363.22" y2="134.62" width="0.1524" layer="91"/>
-<label x="363.22" y="134.62" size="1.27" layer="95" xref="yes"/>
+<label x="363.22" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U7" gate="A" pin="X1"/>
 <wire x1="335.28" y1="190.5" x2="337.82" y2="190.5" width="0.1524" layer="91"/>
-<label x="337.82" y="190.5" size="1.27" layer="95" xref="yes"/>
+<label x="337.82" y="190.5" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_MDC" class="1">
 <segment>
 <pinref part="U7" gate="A" pin="MDC"/>
 <wire x1="335.28" y1="182.88" x2="337.82" y2="182.88" width="0.1524" layer="91"/>
-<label x="337.82" y="182.88" size="1.27" layer="95" xref="yes"/>
+<label x="337.82" y="182.88" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_MDIO" class="1">
 <segment>
 <pinref part="U7" gate="A" pin="MDIO"/>
 <wire x1="335.28" y1="180.34" x2="337.82" y2="180.34" width="0.1524" layer="91"/>
-<label x="337.82" y="180.34" size="1.27" layer="95" xref="yes"/>
+<label x="337.82" y="180.34" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_RST" class="1">
 <segment>
 <pinref part="U7" gate="A" pin="RESET_N"/>
 <wire x1="335.28" y1="177.8" x2="337.82" y2="177.8" width="0.1524" layer="91"/>
-<label x="337.82" y="177.8" size="1.27" layer="95" xref="yes"/>
+<label x="337.82" y="177.8" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_TXD_0" class="1">
 <segment>
 <pinref part="U7" gate="A" pin="TXD_0"/>
 <wire x1="233.68" y1="215.9" x2="226.06" y2="215.9" width="0.1524" layer="91"/>
-<label x="226.06" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="226.06" y="215.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_TXD_1" class="1">
 <segment>
 <pinref part="U7" gate="A" pin="TXD_1"/>
 <wire x1="233.68" y1="213.36" x2="226.06" y2="213.36" width="0.1524" layer="91"/>
-<label x="226.06" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="226.06" y="213.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_RXD_1" class="1">
 <segment>
 <pinref part="U7" gate="A" pin="RXD_1/PHYAD2"/>
 <wire x1="335.28" y1="213.36" x2="337.82" y2="213.36" width="0.1524" layer="91"/>
-<label x="337.82" y="213.36" size="1.27" layer="95" xref="yes"/>
+<label x="337.82" y="213.36" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_RXD_0" class="1">
 <segment>
 <pinref part="U7" gate="A" pin="RXD_0/PHYAD1"/>
 <wire x1="335.28" y1="210.82" x2="337.82" y2="210.82" width="0.1524" layer="91"/>
-<label x="337.82" y="210.82" size="1.27" layer="95" xref="yes"/>
+<label x="337.82" y="210.82" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="+5V" class="2">
