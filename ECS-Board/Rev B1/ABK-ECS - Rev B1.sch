@@ -21627,9 +21627,9 @@ http://www.tag-connect.com</description>
 </net>
 <net name="OUTPUT2.3_MCU" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="P1[23]/MCI1/PWM1[4]/MISO0"/>
-<wire x1="134.62" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
-<label x="127" y="142.24" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+<wire x1="134.62" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
+<label x="127" y="147.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U2" gate="A" pin="P1[21]/*MCABORT/PWM1[3]/SSEL0"/>
 </segment>
 </net>
 <net name="OUTPUT3.2_MCU" class="0">
@@ -21641,16 +21641,16 @@ http://www.tag-connect.com</description>
 </net>
 <net name="OUTPUT2.4_MCU" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="P1[22]/MCOB0/USB_PWRD/MAT1[0]"/>
-<wire x1="134.62" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
-<label x="127" y="144.78" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+<wire x1="134.62" y1="167.64" x2="124.46" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="P3[25]/MAT0[0]/PWM1[2]"/>
+<label x="124.46" y="167.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUTPUT2.2_MCU" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="P1[24]/MCI2/PWM1[5]/MOSI0"/>
-<wire x1="134.62" y1="139.7" x2="127" y2="139.7" width="0.1524" layer="91"/>
-<label x="127" y="139.7" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+<wire x1="134.62" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
+<label x="127" y="144.78" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U2" gate="A" pin="P1[22]/MCOB0/USB_PWRD/MAT1[0]"/>
 </segment>
 </net>
 <net name="INPUT2.3_MCU" class="0">
@@ -21737,9 +21737,9 @@ http://www.tag-connect.com</description>
 </net>
 <net name="OUTPUT1.1_MCU" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="P0[0]/RD1/TXD3/SDA1"/>
-<wire x1="127" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
-<label x="127" y="119.38" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="127" y1="109.22" x2="134.62" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="P2[13]/*EINT3/I2STX_SDA"/>
+<label x="127" y="109.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUTPUT1.4_MCU" class="0">
@@ -21876,6 +21876,83 @@ http://www.tag-connect.com</description>
 <pinref part="U2" gate="A" pin="P1[17]/ENET_MDIO"/>
 <wire x1="317.5" y1="198.12" x2="325.12" y2="198.12" width="0.1524" layer="91"/>
 <label x="325.12" y="198.12" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="ADC2" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="P0[23]/AD0[0]/I2SRX_CLK/CAP3[0]"/>
+<wire x1="134.62" y1="213.36" x2="127" y2="213.36" width="0.1524" layer="91"/>
+<label x="127" y="213.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADC1" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="P0[24]/AD0[1]/I2SRX_WS/CAP3[1]"/>
+<wire x1="134.62" y1="215.9" x2="127" y2="215.9" width="0.1524" layer="91"/>
+<label x="127" y="215.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="UART_TX" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="P0[0]/RD1/TXD3/SDA1"/>
+<wire x1="134.62" y1="119.38" x2="127" y2="119.38" width="0.1524" layer="91"/>
+<label x="127" y="119.38" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="UART_RX" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="P0[1]/TD1/RXD3/SCL1"/>
+<wire x1="134.62" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
+<label x="127" y="116.84" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="I2C_SDA" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="P0[10]/TXD2/SDA2/MAT3[0]"/>
+<wire x1="134.62" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91"/>
+<label x="127" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="I2C_SCL" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="P0[11]/RXD2/SCL2/MAT3[1]"/>
+<wire x1="134.62" y1="111.76" x2="127" y2="111.76" width="0.1524" layer="91"/>
+<label x="127" y="111.76" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="USB_LED" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="P1[18]/USB_UP_LED/PWM1[1]/CAP1[0]"/>
+<wire x1="134.62" y1="154.94" x2="127" y2="154.94" width="0.1524" layer="91"/>
+<label x="127" y="154.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ENCODER_A" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="P1[20]/MCI0/PWM1[2]/SCK0"/>
+<wire x1="134.62" y1="149.86" x2="127" y2="149.86" width="0.1524" layer="91"/>
+<label x="127" y="149.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ENCODER_B" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="P1[23]/MCI1/PWM1[4]/MISO0"/>
+<wire x1="134.62" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
+<label x="127" y="142.24" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ENCODER_Z" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="P1[24]/MCI2/PWM1[5]/MOSI0"/>
+<wire x1="134.62" y1="139.7" x2="127" y2="139.7" width="0.1524" layer="91"/>
+<label x="127" y="139.7" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ENCODER_PUSH" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="P1[19]/MCOA0/*USB_PPWR/CAP1[1]"/>
+<wire x1="134.62" y1="152.4" x2="127" y2="152.4" width="0.1524" layer="91"/>
+<label x="127" y="152.4" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

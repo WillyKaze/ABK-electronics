@@ -6873,28 +6873,36 @@ Your Eurocircuits Team
 <wire x1="64.1475" y1="46.6215" x2="65.571" y2="46.6215" width="0.1778" layer="1"/>
 </signal>
 <signal name="OUTPUT2.4_MCU">
-<contactref element="U2" pad="36"/>
 <contactref element="R121" pad="2"/>
-<wire x1="43.766715625" y1="38.381353125" x2="44.3743625" y2="38.989" width="0.1778" layer="1"/>
-<wire x1="44.3743625" y1="38.989" x2="58.039" y2="38.989" width="0.1778" layer="1"/>
+<wire x1="53.086" y1="38.989" x2="58.039" y2="38.989" width="0.1778" layer="1"/>
 <wire x1="58.039" y1="38.989" x2="60.02" y2="40.97" width="0.1778" layer="1"/>
 <wire x1="60.02" y1="40.97" x2="65.571" y2="40.97" width="0.1778" layer="1"/>
+<contactref element="U2" pad="27"/>
+<wire x1="53.086" y1="38.989" x2="52.705" y2="38.608" width="0.1778" layer="1"/>
+<via x="52.705" y="38.608" extent="1-16" drill="0.35"/>
+<wire x1="52.705" y1="38.608" x2="52.705" y2="37.211" width="0.1778" layer="16"/>
+<wire x1="52.705" y1="37.211" x2="52.324" y2="36.83" width="0.1778" layer="16"/>
+<via x="52.324" y="36.83" extent="1-16" drill="0.35"/>
+<wire x1="52.324" y1="36.83" x2="48.579325" y2="36.83" width="0.1778" layer="1"/>
+<wire x1="48.579325" y1="36.83" x2="46.948696875" y2="35.199371875" width="0.1778" layer="1"/>
 </signal>
 <signal name="OUTPUT2.3_MCU">
-<contactref element="U2" pad="37"/>
 <contactref element="R120" pad="2"/>
-<wire x1="43.4131625" y1="38.73490625" x2="44.04825625" y2="39.37" width="0.1778" layer="1"/>
-<wire x1="44.04825625" y1="39.37" x2="57.887" y2="39.37" width="0.1778" layer="1"/>
+<wire x1="47.85825625" y1="39.37" x2="48.26" y2="39.37" width="0.1778" layer="1"/>
+<wire x1="48.26" y1="39.37" x2="57.887" y2="39.37" width="0.1778" layer="1"/>
 <wire x1="61.4555" y1="42.9385" x2="65.571" y2="42.9385" width="0.1778" layer="1"/>
 <wire x1="57.887" y1="39.37" x2="61.4555" y2="42.9385" width="0.1778" layer="1"/>
+<contactref element="U2" pad="35"/>
+<wire x1="44.12026875" y1="38.027796875" x2="45.462471875" y2="39.37" width="0.1778" layer="1"/>
+<wire x1="45.462471875" y1="39.37" x2="47.85825625" y2="39.37" width="0.1778" layer="1"/>
 </signal>
 <signal name="OUTPUT2.2_MCU">
-<contactref element="U2" pad="38"/>
 <contactref element="R119" pad="2"/>
-<wire x1="43.059609375" y1="39.088459375" x2="43.72215" y2="39.751" width="0.1778" layer="1"/>
-<wire x1="43.72215" y1="39.751" x2="57.785" y2="39.751" width="0.1778" layer="1"/>
+<wire x1="45.1363625" y1="39.751" x2="57.785" y2="39.751" width="0.1778" layer="1"/>
 <wire x1="57.785" y1="39.751" x2="62.814" y2="44.78" width="0.1778" layer="1"/>
 <wire x1="62.814" y1="44.78" x2="65.571" y2="44.78" width="0.1778" layer="1"/>
+<contactref element="U2" pad="36"/>
+<wire x1="43.766715625" y1="38.381353125" x2="45.1363625" y2="39.751" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$41">
 <contactref element="R27" pad="2"/>
@@ -7091,8 +7099,8 @@ Your Eurocircuits Team
 <signal name="INPUT2.2_MCU">
 <contactref element="U2" pad="60"/>
 <contactref element="U5" pad="10"/>
-<wire x1="27.6225" y1="68.3362" x2="27.6225" y2="45.93158125" width="0.1778" layer="1"/>
-<wire x1="27.6225" y1="45.93158125" x2="33.3439625" y2="40.14911875" width="0.1778" layer="1"/>
+<wire x1="27.6225" y1="68.3362" x2="27.6225" y2="45.87058125" width="0.1778" layer="1"/>
+<wire x1="27.6225" y1="45.87058125" x2="33.3439625" y2="40.14911875" width="0.1778" layer="1"/>
 </signal>
 <signal name="VREFP">
 <contactref element="U2" pad="12"/>
@@ -7686,9 +7694,11 @@ Your Eurocircuits Team
 </signal>
 <signal name="OUTPUT1.1_MCU">
 <contactref element="R87" pad="2"/>
-<contactref element="U2" pad="46"/>
-<wire x1="40.23118125" y1="41.916884375" x2="45.316796875" y2="47.0025" width="0.1778" layer="1"/>
-<wire x1="45.316796875" y1="47.0025" x2="47.791" y2="47.0025" width="0.1778" layer="1"/>
+<wire x1="45.316796875" y1="47.0025" x2="45.72" y2="47.0025" width="0.1778" layer="1"/>
+<contactref element="U2" pad="50"/>
+<wire x1="45.72" y1="47.0025" x2="47.791" y2="47.0025" width="0.1778" layer="1"/>
+<wire x1="38.81696875" y1="43.3311" x2="42.48836875" y2="47.0025" width="0.1778" layer="1"/>
+<wire x1="42.48836875" y1="47.0025" x2="45.316796875" y2="47.0025" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$81">
 <contactref element="R42" pad="2"/>
@@ -8358,6 +8368,39 @@ Your Eurocircuits Team
 <contactref element="J12" pad="S1"/>
 <wire x1="35.939209375" y1="9.906959375" x2="51.689209375" y2="9.906959375" width="0.4064" layer="15"/>
 </signal>
+<signal name="ADC2">
+<contactref element="U2" pad="9"/>
+</signal>
+<signal name="ADC1">
+<contactref element="U2" pad="8"/>
+</signal>
+<signal name="UART_TX">
+<contactref element="U2" pad="46"/>
+</signal>
+<signal name="UART_RX">
+<contactref element="U2" pad="47"/>
+</signal>
+<signal name="I2C_SDA">
+<contactref element="U2" pad="48"/>
+</signal>
+<signal name="I2C_SCL">
+<contactref element="U2" pad="49"/>
+</signal>
+<signal name="USB_LED">
+<contactref element="U2" pad="32"/>
+</signal>
+<signal name="ENCODER_A">
+<contactref element="U2" pad="34"/>
+</signal>
+<signal name="ENCODER_B">
+<contactref element="U2" pad="37"/>
+</signal>
+<signal name="ENCODER_Z">
+<contactref element="U2" pad="38"/>
+</signal>
+<signal name="ENCODER_PUSH">
+<contactref element="U2" pad="33"/>
+</signal>
 </signals>
 <errors>
 <approved hash="6,1,1227cc5e112ecf57"/>
@@ -8389,20 +8432,20 @@ Your Eurocircuits Team
 <approved hash="6,1,40654cf3ea58b8d2"/>
 <approved hash="6,1,184debbf323348d9"/>
 <approved hash="6,1,fdf558b8f39caf53"/>
-<approved hash="6,1,41fc9706740773af"/>
 <approved hash="6,1,0b4690adff899de0"/>
+<approved hash="6,1,41fc9706740773af"/>
 <approved hash="6,1,22979723e50d4d53"/>
 <approved hash="6,1,41fc97bf5cebf3f3"/>
-<approved hash="6,1,c733116cfe2ad3d6"/>
-<approved hash="6,1,5a7d96cffecbcd1b"/>
-<approved hash="6,1,2d8798129e9acd58"/>
 <approved hash="6,1,d3aa112cfe76c449"/>
+<approved hash="6,1,c733116cfe2ad3d6"/>
+<approved hash="6,1,2d8798129e9acd58"/>
+<approved hash="6,1,5a7d96cffecbcd1b"/>
 <approved hash="6,1,bfe877ec4a1a7abd"/>
 <approved hash="6,1,c9109d34315e1cf6"/>
-<approved hash="6,1,40a754fff33cdf65"/>
-<approved hash="6,1,f0d50cb03215f6c7"/>
-<approved hash="6,1,437b3d64f4c9b26b"/>
 <approved hash="6,1,e64e7425b81f1293"/>
+<approved hash="6,1,437b3d64f4c9b26b"/>
+<approved hash="6,1,f0d50cb03215f6c7"/>
+<approved hash="6,1,40a754fff33cdf65"/>
 <approved hash="6,1,0a270d3ae3bb7db9"/>
 <approved hash="6,1,f74cad5cc4febbb9"/>
 <approved hash="6,1,7661750b3f12326a"/>
@@ -8413,8 +8456,8 @@ Your Eurocircuits Team
 <approved hash="6,1,e9c02a5691f7e92e"/>
 <approved hash="6,1,8644ea7ceabc8684"/>
 <approved hash="6,1,b006383a39dab1e6"/>
-<approved hash="6,1,761f5a075bc677de"/>
 <approved hash="6,1,470130d734e64eda"/>
+<approved hash="6,1,761f5a075bc677de"/>
 <approved hash="6,1,e6df1ea31f2be757"/>
 <approved hash="6,1,63907d669cdec4de"/>
 <approved hash="6,1,7debb2abb0cc7f8c"/>
@@ -8435,8 +8478,8 @@ Your Eurocircuits Team
 <approved hash="6,1,9e6f067707ff9fe7"/>
 <approved hash="6,1,7d6dbdadbfce7f0e"/>
 <approved hash="6,1,632542e142e06324"/>
-<approved hash="6,1,81e82e7d9b45eff5"/>
 <approved hash="6,1,cfcef8721f9fa058"/>
+<approved hash="6,1,81e82e7d9b45eff5"/>
 <approved hash="6,1,365307fd7f788b33"/>
 <approved hash="6,1,3123372737213125"/>
 </errors>
