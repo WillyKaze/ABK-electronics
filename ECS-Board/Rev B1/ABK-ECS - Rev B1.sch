@@ -26580,13 +26580,6 @@ http://www.tag-connect.com</description>
 </net>
 <net name="ADC2" class="0">
 <segment>
-<pinref part="R142" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="139.7" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
-<label x="63.5" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="ADC1" class="0">
-<segment>
 <pinref part="R141" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="144.78" x2="48.26" y2="144.78" width="0.1524" layer="91"/>
 <label x="63.5" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -26616,6 +26609,13 @@ http://www.tag-connect.com</description>
 <junction x="66.04" y="40.64"/>
 <pinref part="R154" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="40.64" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ADC1" class="0">
+<segment>
+<pinref part="R142" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="139.7" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
+<label x="63.5" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
