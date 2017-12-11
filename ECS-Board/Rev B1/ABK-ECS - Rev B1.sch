@@ -21289,6 +21289,11 @@ http://www.tag-connect.com</description>
 <pinref part="U2" gate="A" pin="P2[0]/PWM1[1]/TXD1"/>
 <label x="325.12" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
+<segment>
+<wire x1="325.12" y1="124.46" x2="317.5" y2="124.46" width="0.1524" layer="91"/>
+<label x="325.12" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="A" pin="P0[21]/RI1/RD1"/>
+</segment>
 </net>
 <net name="EEPROM_SDA" class="0">
 <segment>
@@ -21449,6 +21454,11 @@ http://www.tag-connect.com</description>
 <pinref part="U2" gate="A" pin="P2[1]/PWM1[2]/RXD1"/>
 <label x="325.12" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
+<segment>
+<wire x1="325.12" y1="121.92" x2="317.5" y2="121.92" width="0.1524" layer="91"/>
+<label x="325.12" y="121.92" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="A" pin="P0[22]/RTS1/TD1"/>
+</segment>
 </net>
 <net name="!JTAG_TRST" class="0">
 <segment>
@@ -21519,30 +21529,30 @@ http://www.tag-connect.com</description>
 </net>
 <net name="INPUT2.3_MCU" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="P0[21]/RI1/RD1"/>
-<wire x1="317.5" y1="124.46" x2="325.12" y2="124.46" width="0.1524" layer="91"/>
-<label x="325.12" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="317.5" y1="129.54" x2="325.12" y2="129.54" width="0.1524" layer="91"/>
+<label x="325.12" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="A" pin="P0[19]/DSR1/SDA1"/>
 </segment>
 </net>
 <net name="INPUT2.1_MCU" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="P0[19]/DSR1/SDA1"/>
-<wire x1="317.5" y1="129.54" x2="325.12" y2="129.54" width="0.1524" layer="91"/>
-<label x="325.12" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="317.5" y1="132.08" x2="325.12" y2="132.08" width="0.1524" layer="91"/>
+<label x="325.12" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="A" pin="P0[18]/DCD1/MOSI0/MOSI"/>
 </segment>
 </net>
 <net name="INPUT2.2_MCU" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="P0[18]/DCD1/MOSI0/MOSI"/>
-<wire x1="317.5" y1="132.08" x2="325.12" y2="132.08" width="0.1524" layer="91"/>
-<label x="325.12" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="317.5" y1="134.62" x2="325.12" y2="134.62" width="0.1524" layer="91"/>
+<label x="325.12" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="A" pin="P0[17]/CTS1/MISO0/MISO"/>
 </segment>
 </net>
 <net name="INPUT2.4_MCU" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="P0[22]/RTS1/TD1"/>
-<wire x1="317.5" y1="121.92" x2="325.12" y2="121.92" width="0.1524" layer="91"/>
-<label x="325.12" y="121.92" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="317.5" y1="127" x2="325.12" y2="127" width="0.1524" layer="91"/>
+<label x="325.12" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="A" pin="P0[20]/DTR1/SCL1"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -21566,23 +21576,23 @@ http://www.tag-connect.com</description>
 </net>
 <net name="INPUT1.4_MCU" class="0">
 <segment>
-<wire x1="325.12" y1="134.62" x2="317.5" y2="134.62" width="0.1524" layer="91"/>
-<label x="325.12" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U2" gate="A" pin="P0[17]/CTS1/MISO0/MISO"/>
+<wire x1="325.12" y1="137.16" x2="317.5" y2="137.16" width="0.1524" layer="91"/>
+<label x="325.12" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="A" pin="P0[15]/TXD1/SCK0/SCK"/>
 </segment>
 </net>
 <net name="INPUT1.2_MCU" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="P0[16]/RXD1/SSEL0/SSEL"/>
-<wire x1="317.5" y1="139.7" x2="325.12" y2="139.7" width="0.1524" layer="91"/>
-<label x="325.12" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="317.5" y1="144.78" x2="325.12" y2="144.78" width="0.1524" layer="91"/>
+<label x="325.12" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="A" pin="P2[8]/TD2/TXD2"/>
 </segment>
 </net>
 <net name="INPUT1.3_MCU" class="0">
 <segment>
-<wire x1="317.5" y1="137.16" x2="325.12" y2="137.16" width="0.1524" layer="91"/>
-<label x="325.12" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U2" gate="A" pin="P0[15]/TXD1/SCK0/SCK"/>
+<wire x1="317.5" y1="139.7" x2="325.12" y2="139.7" width="0.1524" layer="91"/>
+<label x="325.12" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="A" pin="P0[16]/RXD1/SSEL0/SSEL"/>
 </segment>
 </net>
 <net name="OUTPUT1.3_MCU" class="0">
@@ -21615,9 +21625,9 @@ http://www.tag-connect.com</description>
 </net>
 <net name="INPUT1.1_MCU" class="0">
 <segment>
-<wire x1="317.5" y1="144.78" x2="325.12" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="P2[8]/TD2/TXD2"/>
-<label x="325.12" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="317.5" y1="147.32" x2="325.12" y2="147.32" width="0.1524" layer="91"/>
+<label x="325.12" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="A" pin="P2[7]/RD2/RTS1"/>
 </segment>
 </net>
 <net name="ISP_RXDO" class="1">
