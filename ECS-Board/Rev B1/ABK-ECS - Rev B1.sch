@@ -21285,11 +21285,6 @@ http://www.tag-connect.com</description>
 <wire x1="370.84" y1="66.04" x2="370.84" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="325.12" y1="170.18" x2="317.5" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="P2[0]/PWM1[1]/TXD1"/>
-<label x="325.12" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <wire x1="325.12" y1="124.46" x2="317.5" y2="124.46" width="0.1524" layer="91"/>
 <label x="325.12" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="A" pin="P0[21]/RI1/RD1"/>
@@ -21448,11 +21443,6 @@ http://www.tag-connect.com</description>
 <wire x1="363.22" y1="60.96" x2="363.22" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="60.96" x2="358.14" y2="60.96" width="0.1524" layer="91"/>
 <label x="358.14" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="325.12" y1="167.64" x2="317.5" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="P2[1]/PWM1[2]/RXD1"/>
-<label x="325.12" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="325.12" y1="121.92" x2="317.5" y2="121.92" width="0.1524" layer="91"/>
