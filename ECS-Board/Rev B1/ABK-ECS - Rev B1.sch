@@ -26552,7 +26552,7 @@ http://www.tag-connect.com</description>
 <wire x1="33.02" y1="40.64" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="UART_TX" class="0">
+<net name="UART_RX" class="0">
 <segment>
 <pinref part="R145" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="45.72" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
@@ -26565,33 +26565,7 @@ http://www.tag-connect.com</description>
 <wire x1="58.42" y1="45.72" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="UART_RX" class="0">
-<segment>
-<pinref part="R146" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
-<label x="71.12" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="R152" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="38.1" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
-<junction x="66.04" y="40.64"/>
-<pinref part="R154" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="40.64" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="I2C_SCL" class="0">
-<segment>
-<pinref part="R144" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
-<label x="71.12" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="R148" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="88.9" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
-<junction x="66.04" y="91.44"/>
-<pinref part="R150" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="99.06" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="I2C_SDA" class="0">
 <segment>
 <pinref part="R143" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
@@ -26616,6 +26590,32 @@ http://www.tag-connect.com</description>
 <pinref part="R141" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="144.78" x2="48.26" y2="144.78" width="0.1524" layer="91"/>
 <label x="63.5" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="I2C_SDA" class="0">
+<segment>
+<pinref part="R144" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
+<label x="71.12" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="R148" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="88.9" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
+<junction x="66.04" y="91.44"/>
+<pinref part="R150" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="99.06" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="UART_TX" class="0">
+<segment>
+<pinref part="R146" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
+<label x="71.12" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="R152" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="38.1" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
+<junction x="66.04" y="40.64"/>
+<pinref part="R154" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="40.64" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
