@@ -14293,17 +14293,18 @@ SOurce: www.abracon.com</description>
 <library name="Switch_SMT">
 <packages>
 <package name="B3FS">
-<wire x1="-3.2" y1="-3.15" x2="3.2" y2="-3.15" width="0.127" layer="21"/>
-<wire x1="3.2" y1="-3.15" x2="3.2" y2="3.15" width="0.127" layer="21"/>
-<wire x1="3.2" y1="3.15" x2="-3.2" y2="3.15" width="0.127" layer="21"/>
-<wire x1="-3.2" y1="3.15" x2="-3.2" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="-3.15" x2="3.2" y2="-3.15" width="0.254" layer="21"/>
+<wire x1="3.2" y1="-3.15" x2="3.2" y2="3.15" width="0.254" layer="51"/>
+<wire x1="3.2" y1="3.15" x2="-3.2" y2="3.15" width="0.254" layer="21"/>
+<wire x1="-3.2" y1="3.15" x2="-3.2" y2="-3.15" width="0.254" layer="51"/>
 <smd name="4" x="-4" y="2.25" dx="1.6" dy="1.4" layer="1" rot="R90"/>
 <smd name="3" x="4" y="2.25" dx="1.6" dy="1.4" layer="1" rot="R90"/>
 <smd name="1" x="4" y="-2.25" dx="1.6" dy="1.4" layer="1" rot="R90"/>
 <smd name="2" x="-4" y="-2.25" dx="1.6" dy="1.4" layer="1" rot="R90"/>
-<circle x="0" y="0" radius="1.5" width="0.127" layer="21"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="1.5" width="0.254" layer="51"/>
+<text x="-2.54" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="0.4064" layer="27">&gt;VALUE</text>
+<circle x="2.54" y="-2.54" radius="0.127" width="0.508" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -14362,10 +14363,10 @@ High-density Mounting</description>
 <circle x="0" y="0" radius="6" width="0.0635" layer="51"/>
 <circle x="-7.874" y="0" radius="0.567959375" width="0.127" layer="51"/>
 <circle x="7.874" y="0" radius="0.567959375" width="0.127" layer="51"/>
-<wire x1="-6.604" y1="-2.9972" x2="-3.5687" y2="-6.0325" width="0.127" layer="21"/>
-<wire x1="-6.604" y1="-2.9972" x2="-6.604" y2="2.9972" width="0.127" layer="21"/>
-<wire x1="-6.604" y1="2.9972" x2="-3.81" y2="3.81" width="0.127" layer="21" curve="-147.559622"/>
-<wire x1="-3.81" y1="3.81" x2="0" y2="2.54" width="0.127" layer="21" curve="38.659808"/>
+<wire x1="-6.604" y1="-2.9972" x2="-3.5687" y2="-6.0325" width="0.254" layer="51"/>
+<wire x1="-6.604" y1="-2.9972" x2="-6.604" y2="2.9972" width="0.254" layer="21"/>
+<wire x1="-6.604" y1="2.9972" x2="-3.81" y2="3.81" width="0.254" layer="51" curve="-147.559622"/>
+<wire x1="-3.81" y1="3.81" x2="0" y2="2.54" width="0.254" layer="51" curve="38.659808"/>
 <wire x1="-3.048" y1="1.524" x2="-3.048" y2="0" width="0.127" layer="51"/>
 <wire x1="-3.048" y1="0" x2="-3.048" y2="-1.27" width="0.127" layer="51"/>
 <wire x1="-3.048" y1="-1.27" x2="-2.032" y2="-1.27" width="0.127" layer="51" curve="180"/>
@@ -14375,11 +14376,11 @@ High-density Mounting</description>
 <wire x1="-6.604" y1="1.524" x2="-9.398" y2="1.524" width="0.127" layer="51"/>
 <wire x1="-9.398" y1="1.524" x2="-9.398" y2="-1.524" width="0.127" layer="51"/>
 <wire x1="-9.398" y1="-1.524" x2="-6.604" y2="-1.524" width="0.127" layer="51"/>
-<wire x1="3.5687" y1="-6.0325" x2="-3.5687" y2="-6.0325" width="0.127" layer="21"/>
-<wire x1="6.604" y1="-2.9972" x2="3.5687" y2="-6.0325" width="0.127" layer="21"/>
-<wire x1="6.604" y1="-2.9972" x2="6.604" y2="2.9972" width="0.127" layer="21"/>
-<wire x1="6.604" y1="2.9972" x2="3.81" y2="3.81" width="0.127" layer="21" curve="147.559622"/>
-<wire x1="3.81" y1="3.81" x2="0" y2="2.54" width="0.127" layer="21" curve="-38.659808"/>
+<wire x1="3.5687" y1="-6.0325" x2="-3.5687" y2="-6.0325" width="0.254" layer="21"/>
+<wire x1="6.604" y1="-2.9972" x2="3.5687" y2="-6.0325" width="0.254" layer="51"/>
+<wire x1="6.604" y1="-2.9972" x2="6.604" y2="2.9972" width="0.254" layer="21"/>
+<wire x1="6.604" y1="2.9972" x2="3.81" y2="3.81" width="0.254" layer="51" curve="147.559622"/>
+<wire x1="3.81" y1="3.81" x2="0" y2="2.54" width="0.254" layer="51" curve="-38.659808"/>
 <wire x1="3.048" y1="1.524" x2="3.048" y2="0" width="0.127" layer="51"/>
 <wire x1="3.048" y1="0" x2="3.048" y2="-1.27" width="0.127" layer="51"/>
 <wire x1="3.048" y1="-1.27" x2="2.032" y2="-1.27" width="0.127" layer="51" curve="-180"/>
@@ -15995,10 +15996,10 @@ Source: www.kingbright.com</description>
 <pad name="4" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="5" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="6" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="7.7201" y="2.9479" size="1.016" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="-5.1801" y="-3.5829" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="6.35" y="-3.81" size="1.27" layer="51" ratio="14" rot="R270" align="center">1</text>
 <text x="-6.35" y="-3.81" size="1.27" layer="51" ratio="14" rot="R270" align="center">6</text>
-<text x="-2.4399" y="2.9479" size="0.8128" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
+<text x="-5.1801" y="-4.2179" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
 <rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
@@ -16177,10 +16178,10 @@ Source: www.kingbright.com</description>
 <pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="3" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="4" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="5.1801" y="2.9479" size="1.016" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="-2.6401" y="-3.5829" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.81" y="-3.81" size="1.27" layer="51" ratio="14" rot="R270" align="center">1</text>
 <text x="-3.81" y="-3.81" size="1.27" layer="51" ratio="14" rot="R270" align="center">4</text>
-<text x="5.9421" y="-2.4399" size="0.8128" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+<text x="-2.6401" y="-4.2179" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
@@ -16409,31 +16410,23 @@ Based on the previous libraries:
 <packages>
 <package name="MSTBA2">
 <description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
-<wire x1="-6.096" y1="7.112" x2="-6.096" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="7.112" x2="-3.175" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="7.112" x2="-1.905" y2="7.112" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="7.112" x2="1.905" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="7.112" x2="3.175" y2="7.112" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="7.112" x2="6.096" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-1.905" x2="6.096" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="6.096" y1="7.112" x2="6.096" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-4.953" x2="-3.429" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-1.905" x2="-6.096" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="6.096" y1="-1.905" x2="6.096" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-4.953" x2="-2.032" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-4.953" x2="1.651" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="-3.683" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-4.953" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-4.953" x2="-1.651" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="-4.953" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="-4.953" x2="6.096" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="-4.953" x2="2.032" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="-4.953" x2="3.429" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-3.683" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-6.096" y1="7.112" x2="-6.096" y2="-4.953" width="0.254" layer="21"/>
+<wire x1="-6.096" y1="7.112" x2="-4.445" y2="7.112" width="0.254" layer="21"/>
+<wire x1="-4.445" y1="7.112" x2="4.445" y2="7.112" width="0.254" layer="51"/>
+<wire x1="4.445" y1="7.112" x2="6.096" y2="7.112" width="0.254" layer="21"/>
+<wire x1="-6.096" y1="-1.905" x2="6.096" y2="-1.905" width="0.254" layer="51" style="shortdash"/>
+<wire x1="6.096" y1="7.112" x2="6.096" y2="-4.953" width="0.254" layer="21"/>
+<wire x1="-1.651" y1="-4.953" x2="-2.032" y2="-3.683" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="-3.683" x2="-3.048" y2="-3.683" width="0.1524" layer="51"/>
+<wire x1="-3.429" y1="-4.953" x2="-3.048" y2="-3.683" width="0.1524" layer="51"/>
+<wire x1="3.429" y1="-4.953" x2="3.048" y2="-3.683" width="0.1524" layer="51"/>
+<wire x1="-6.096" y1="-4.953" x2="6.096" y2="-4.953" width="0.254" layer="21"/>
+<wire x1="1.651" y1="-4.953" x2="2.032" y2="-3.683" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="-3.683" x2="3.048" y2="-3.683" width="0.1524" layer="51"/>
 <pad name="1" x="-2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
 <pad name="2" x="2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
-<text x="6.35" y="6.35" size="0.6096" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="6.35" y="5.08" size="0.4064" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<text x="-5.08" y="-1.27" size="0.6096" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.4064" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 <text x="-4.572" y="4.445" size="1.27" layer="21" font="vector" ratio="10">1</text>
 <text x="0.254" y="4.445" size="1.27" layer="21" font="vector" ratio="10">2</text>
 </package>
@@ -17523,17 +17516,17 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pad name="3" x="-1.2446" y="2.7178" drill="0.9144"/>
 <pad name="SHL1" x="-6.0198" y="0" drill="2.286"/>
 <pad name="SHL" x="6.0198" y="0" drill="2.286"/>
-<wire x1="-6.4008" y1="-10.287" x2="-6.4008" y2="5.8166" width="0.4064" layer="21"/>
+<wire x1="-6.4008" y1="-10.287" x2="-6.4008" y2="5.8166" width="0.254" layer="21"/>
 <wire x1="-6.4008" y1="-10.287" x2="-6.4008" y2="5.8166" width="0.4064" layer="41"/>
-<wire x1="-6.4008" y1="5.8166" x2="6.4008" y2="5.8166" width="0.4064" layer="21"/>
-<wire x1="6.4008" y1="5.8166" x2="6.4008" y2="-10.287" width="0.4064" layer="21"/>
+<wire x1="-6.4008" y1="5.8166" x2="6.4008" y2="5.8166" width="0.254" layer="21"/>
+<wire x1="6.4008" y1="5.8166" x2="6.4008" y2="-10.287" width="0.254" layer="21"/>
 <wire x1="6.4008" y1="5.8166" x2="6.4008" y2="-10.287" width="0.4064" layer="41"/>
 <wire x1="-6.4008" y1="5.8166" x2="6.4008" y2="5.8166" width="0.4064" layer="41"/>
-<wire x1="6.4008" y1="-10.287" x2="-6.4008" y2="-10.287" width="0.4064" layer="21"/>
+<wire x1="6.4008" y1="-10.287" x2="-6.4008" y2="-10.287" width="0.254" layer="21"/>
 <wire x1="6.4008" y1="-10.287" x2="-6.4008" y2="-10.287" width="0.4064" layer="41"/>
-<text x="-6.35" y="6.35" size="1.27" layer="25">&gt;NAME</text>
-<text x="0" y="6.35" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-6.35" y1="-4.318" x2="6.35" y2="-4.318" width="0.4064" layer="21" style="shortdash"/>
+<text x="-5.08" y="-3.81" size="0.6096" layer="25">&gt;NAME</text>
+<text x="0" y="-3.81" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="-6.35" y1="-4.318" x2="6.35" y2="-4.318" width="0.254" layer="51" style="shortdash"/>
 </package>
 </packages>
 <symbols>
@@ -18346,12 +18339,13 @@ http://www.tag-connect.com</description>
 <pad name="L4" x="-6.32453125" y="-4.89963125" drill="0.9"/>
 <pad name="L3" x="-3.78638125" y="-3.37913125" drill="0.9"/>
 <pad name="L2" x="3.78361875" y="-4.89913125" drill="0.9"/>
-<wire x1="-7.875" y1="-10.89" x2="7.875" y2="-10.89" width="0.127" layer="21"/>
-<wire x1="7.875" y1="-10.89" x2="7.875" y2="10.89" width="0.127" layer="21"/>
-<wire x1="7.875" y1="10.89" x2="-7.875" y2="10.89" width="0.127" layer="21"/>
-<wire x1="-7.875" y1="10.89" x2="-7.875" y2="-10.89" width="0.127" layer="21"/>
+<wire x1="-7.875" y1="-10.89" x2="7.875" y2="-10.89" width="0.254" layer="21"/>
+<wire x1="7.875" y1="-10.89" x2="7.875" y2="10.89" width="0.254" layer="21"/>
+<wire x1="7.875" y1="10.89" x2="-7.875" y2="10.89" width="0.254" layer="21"/>
+<wire x1="-7.875" y1="10.89" x2="-7.875" y2="-10.89" width="0.254" layer="21"/>
 <rectangle x1="-8.89" y1="-10.795" x2="8.89" y2="10.795" layer="39"/>
 <rectangle x1="-8.89" y1="-10.795" x2="8.89" y2="10.795" layer="41"/>
+<wire x1="-7.62" y1="-6.985" x2="7.62" y2="-6.985" width="0.254" layer="51" style="shortdash"/>
 </package>
 </packages>
 <symbols>
@@ -18935,11 +18929,11 @@ http://www.tag-connect.com</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="Default" width="0" drill="0">
+<class number="0" name="Default" width="0.1778" drill="0">
 </class>
 <class number="1" name="signal" width="0.1778" drill="0.35">
 </class>
-<class number="2" name="supply" width="0.007740625" drill="0.5">
+<class number="2" name="supply" width="0.4064" drill="0.5">
 </class>
 </classes>
 <parts>
@@ -20551,15 +20545,7 @@ http://www.tag-connect.com</description>
 <attribute name="MPN" value="RC0603FR-071K5L"/>
 <attribute name="OC_NEWARK" value="68R0045"/>
 </part>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="1K5">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603FR-071K5L"/>
-<attribute name="OC_NEWARK" value="68R0045"/>
-</part>
-<part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="+3V311" library="supply1" deviceset="+3V3" device=""/>
-<part name="SJ1" library="SparkFun-Passives" deviceset="SJ" device="NC"/>
-<part name="SJ2" library="SparkFun-Passives" deviceset="SJ" device="NC"/>
 </parts>
 <sheets>
 <sheet>
@@ -20588,10 +20574,6 @@ http://www.tag-connect.com</description>
 <text x="5.08" y="118.11" size="1.778" layer="97" font="vector">RTC</text>
 <text x="5.08" y="160.02" size="1.778" layer="97" font="vector">12MHz CLOCK</text>
 <text x="5.08" y="254" size="1.778" layer="97" font="vector">DECOUPLING</text>
-<text x="104.14" y="66.04" size="1.778" layer="97">If pull-down config : 
-Solder jump SJ1 and R6 mount
-If pull-up config :
-Solder jump SJ2 and R5 mount</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -20843,25 +20825,17 @@ Solder jump SJ2 and R5 mount</text>
 <attribute name="MF" x="200.66" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="200.66" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="LED1" gate="G$1" x="144.78" y="40.64">
-<attribute name="OC_NEWARK" x="144.78" y="40.64" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="144.78" y="40.64" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="144.78" y="40.64" size="1.778" layer="96" display="off"/>
+<instance part="LED1" gate="G$1" x="144.78" y="35.56">
+<attribute name="OC_NEWARK" x="144.78" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="144.78" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="144.78" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R5" gate="G$1" x="144.78" y="53.34" rot="R270">
-<attribute name="OC_NEWARK" x="144.78" y="53.34" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="144.78" y="53.34" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="144.78" y="53.34" size="1.778" layer="96" display="off"/>
+<instance part="R5" gate="G$1" x="144.78" y="48.26" rot="R270">
+<attribute name="OC_NEWARK" x="144.78" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="144.78" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="144.78" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R6" gate="G$1" x="144.78" y="25.4" rot="R270">
-<attribute name="OC_NEWARK" x="144.78" y="25.4" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="144.78" y="25.4" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="144.78" y="25.4" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="GND11" gate="1" x="144.78" y="15.24"/>
 <instance part="+3V311" gate="G$1" x="144.78" y="63.5"/>
-<instance part="SJ1" gate="1" x="132.08" y="45.72"/>
-<instance part="SJ2" gate="1" x="132.08" y="33.02"/>
 </instances>
 <busses>
 </busses>
@@ -21001,7 +20975,7 @@ Solder jump SJ2 and R5 mount</text>
 <segment>
 <pinref part="+3V311" gate="G$1" pin="+3V3"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="60.96" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="60.96" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="2">
@@ -21161,11 +21135,6 @@ Solder jump SJ2 and R5 mount</text>
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="15.24" x2="172.72" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND11" gate="1" pin="GND"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="17.78" x2="144.78" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="JTAG_TDO" class="1">
@@ -21743,14 +21712,9 @@ Solder jump SJ2 and R5 mount</text>
 <label x="127" y="154.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SJ2" gate="1" pin="1"/>
-<wire x1="127" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="SJ1" gate="1" pin="1"/>
-<wire x1="124.46" y1="33.02" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
-<junction x="124.46" y="45.72"/>
-<label x="119.38" y="45.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="144.78" y1="30.48" x2="144.78" y2="20.32" width="0.1524" layer="91"/>
+<label x="144.78" y="20.32" size="1.27" layer="95" font="vector" rot="R270" xref="yes"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="ENCODER_A" class="0">
@@ -21785,22 +21749,7 @@ Solder jump SJ2 and R5 mount</text>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="144.78" y1="48.26" x2="144.78" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="SJ1" gate="1" pin="2"/>
-<wire x1="144.78" y1="45.72" x2="144.78" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="45.72" x2="144.78" y2="45.72" width="0.1524" layer="91"/>
-<junction x="144.78" y="45.72"/>
-</segment>
-</net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="35.56" x2="144.78" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="SJ2" gate="1" pin="2"/>
-<wire x1="144.78" y1="33.02" x2="144.78" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="33.02" x2="144.78" y2="33.02" width="0.1524" layer="91"/>
-<junction x="144.78" y="33.02"/>
+<wire x1="144.78" y1="43.18" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -26159,7 +26108,7 @@ Solder jump SJ2 and R5 mount</text>
 <instance part="GND138" gate="1" x="38.1" y="73.66"/>
 <instance part="GND139" gate="1" x="38.1" y="27.94"/>
 <instance part="+3V333" gate="G$1" x="38.1" y="114.3" rot="MR0"/>
-<instance part="+3V334" gate="G$1" x="38.1" y="55.88" rot="MR0"/>
+<instance part="+3V334" gate="G$1" x="38.1" y="63.5" rot="MR0"/>
 <instance part="R141" gate="G$1" x="58.42" y="83.82" rot="R90">
 <attribute name="OC_NEWARK" x="58.42" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="58.42" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
@@ -26309,7 +26258,7 @@ Solder jump SJ2 and R5 mount</text>
 <pinref part="J15" gate="-1" pin="S"/>
 <pinref part="+3V334" gate="G$1" pin="+3V3"/>
 <wire x1="33.02" y1="50.8" x2="38.1" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="50.8" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="50.8" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J14" gate="-1" pin="S"/>
@@ -26582,10 +26531,4 @@ Solder jump SJ2 and R5 mount</text>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
